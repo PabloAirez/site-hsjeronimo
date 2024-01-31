@@ -1,0 +1,7 @@
+.nav-menu-principal{
+    background-color: var(--secondary-color) !important;
+}
+
+a{
+    color: white !important;
+}
