@@ -31,7 +31,7 @@ export default function MenuPrincipal() {
     <nav className="  bg-secondary-color shadow flex items-center">
       <ul className='h-full w-full mr-40 ml-20  flex items-center'>
         {menu.map((itemMenu,i)=>(
-          itemMenu.subItems ? (
+          itemMenu.subItems ? ( //Caso o item de menu tenha subitens, ele cria um dropdown
             <Dropdown key={i} text={itemMenu.text} subItems={itemMenu.subItems}></Dropdown>
           ) : (
             <NavItem key={i} text={itemMenu.text} href={itemMenu.href}></NavItem>

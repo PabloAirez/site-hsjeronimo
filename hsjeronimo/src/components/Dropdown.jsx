@@ -6,6 +6,13 @@ const Dropdown = ({text, subItems}) => {
 
     const [dropdownOpen,setDropdownOpen] = useState(false);
 
+    /*
+    * A função activeDropdown é ativada ao clicar no botão 
+    * de dropdown. Ela serve para manter as classes do efeito hover
+    * ativas após clicar no botão, sem necessidade de ficar com o mouse
+    * por cima. Recebe como parâmetro um elemento de botão 
+    */
+
     const activeDropdown = (button)=>{
             button.parentElement.classList.toggle("bg-white");
             button.classList.toggle("p-primary-color");
