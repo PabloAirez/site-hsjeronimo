@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities{
+    .p-primary-color{
+        color: var(--primary-color);
+      }
+    .p-secondary-color{
+        color: var(--secondary-color);
+    }
+
+    .text-menu{
+        font-size: 0.9em;
+    }
+}
+  
+
+  
+  

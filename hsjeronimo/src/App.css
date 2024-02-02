@@ -5,9 +5,6 @@
 :root {
   --primary-color: #325164;
   --secondary-color: #5892B6;
-  --paragraph-font-size: 0.9em;
-  --menu-font-size: 0.8em;
-  --title-font-size: 1.2em;
 }
 
 
@@ -18,8 +15,26 @@
 html,body{
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans'; /* A fonte de todas as tags textuais do site devem ser da família Open Sans*/
+  background-color: cornflowerblue;
 }
+
+.bg-primary-color{
+  background-color: var(--primary-color);
+}
+
+.bg-secondary-color{
+  background-color: var(--secondary-color);
+}
+
+.p-primary-color{
+  color: var(--primary-color);
+}
+
+
+.p-secondary-color{
+  color: var(--secondary-color);
+}
+
 
 
 
