@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import NavItem from './NavItem'
 import Dropdown from './Dropdown'
+import MenuMobile from './MenuMobile';
 
 
 const menu = [
@@ -50,25 +51,40 @@ const menu = [
 "href" : "#"},
 ]
 
-export default function MenuPrincipal() {
- 
-    return (
-    <nav className="  bg-secondary-color shadow flex items-center">
-      <ul className='h-full w-full mr-40 ml-20  flex items-center'>
-        {menu.map((itemMenu,i)=>(
-          itemMenu.subItems ? ( //Caso o item de menu tenha subitens, ele cria um dropdown
-            <Dropdown key={i} text={itemMenu.text} subItems={itemMenu.subItems}></Dropdown>
-          ) : (
-            <NavItem key={i} text={itemMenu.text} href={itemMenu.href}></NavItem>
 
-          )
-          )
-        )}
-       
+export default function MenuPrincipal() {
+
+    return (
+    <nav className="bg-secondaryColor shadow flex items-center">
+
+      { //Esta sessão é para mobile  
+      }
+      <ul>
+          <div className='flex xl:hidden'>
+          <MenuMobile menu={menu}></MenuMobile>
+          </div>
+        
       </ul>
+
+
+      { //Esta sessão é para desktops e TVs 
+      }
+     <div className="hidden xl:flex">
+
+        <ul className='h-full w-full mr-40 ml-20  flex items-center'>
+          
+          {menu.map((itemMenu,i)=>(
+            itemMenu.subItems ? ( //Caso o item de menu tenha subitens, ele cria um dropdown
+              <Dropdown key={i} text={itemMenu.text} subItems={itemMenu.subItems}></Dropdown>
+            ) : (
+              <NavItem key={i} text={itemMenu.text} href={itemMenu.href}></NavItem>
+
+            )
+            )
+          )}
+        
+        </ul>
+      </div>  
     </nav>
   )
 }
-
-
-
