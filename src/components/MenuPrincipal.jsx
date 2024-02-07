@@ -59,11 +59,8 @@ export default function MenuPrincipal() {
 
       { //Esta sessão é para mobile  
       }
-      <ul>
-          <div className='flex xl:hidden'>
-          <MenuMobile menu={menu}></MenuMobile>
-          </div>
-        
+      <ul className='h-full w-full xl:hidden flex items-center flex-col'>
+          <MenuMobile menu={menu}></MenuMobile>        
       </ul>
 
 

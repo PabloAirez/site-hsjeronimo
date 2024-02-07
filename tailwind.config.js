@@ -17,6 +17,9 @@ export default {
       fontFamily: {
         body: ['Open Sans', 'sans-serif']
       },
+      transitionProperty: {
+        'height': 'height',
+      }
     },
   },
   plugins: [],

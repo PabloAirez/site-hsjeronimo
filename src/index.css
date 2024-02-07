@@ -12,6 +12,13 @@
     .text-menu{
         font-size: 0.9em;
     }
+    .display-none{
+        display:none;
+    }
+
+    .transition-grid-rows{
+        transition:grid-template-rows 500ms;
+    }
 }
   
 
