@@ -12,8 +12,8 @@
     .text-menu{
         font-size: 0.9em;
     }
-    .display-none{
-        display:none;
+    .open{
+        max-height: 100vh;
     }
 
     .transition-grid-rows{

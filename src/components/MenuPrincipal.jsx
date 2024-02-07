@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useRef } from 'react'
 import NavItem from './NavItem'
 import Dropdown from './Dropdown'
 import MenuMobile from './MenuMobile';
@@ -52,8 +52,12 @@ const menu = [
 ]
 
 
+
 export default function MenuPrincipal() {
 
+  
+
+   
     return (
     <nav className="bg-secondaryColor shadow flex items-center">
 
