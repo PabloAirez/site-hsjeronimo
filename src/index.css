@@ -15,9 +15,18 @@
     .open{
         max-height: 100vh;
     }
+    .bg-index-banner{
+        background-image: url('./images/indexBanner.jpg');
+    }
 
     .transition-grid-rows{
         transition:grid-template-rows 500ms;
+    }
+    .h-banner{
+        height: 35rem;
+    }
+    .w-search{
+        width: 25rem;
     }
 }
   
