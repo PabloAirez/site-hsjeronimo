@@ -20,8 +20,7 @@ export default {
       transitionProperty: {
         'height': 'height',
       }
-    },
   },
   plugins: [],
 }
-
+}

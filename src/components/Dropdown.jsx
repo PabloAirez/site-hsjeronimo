@@ -10,6 +10,7 @@ const Dropdown = ({text, subItems}) => {
     const [dropdownOpen,setDropdownOpen] = useState(false);
     const buttonRef = useRef(); 
    
+    //O Hook useEffect abaixo tem como função verificar quando o mouse receber um novo clique, para assim, fechar o dropdown
    useEffect(()=>{
         let handler = ()=>{
             setDropdownOpen(false);

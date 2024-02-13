@@ -15,9 +15,6 @@
     .open{
         max-height: 100vh;
     }
-    .bg-index-banner{
-        background-image: url('./images/indexBanner.jpg');
-    }
 
     .transition-grid-rows{
         transition:grid-template-rows 500ms;
@@ -28,6 +25,14 @@
     .w-search{
         width: 25rem;
     }
+    /* Esconder barra de rolagem */
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+    .no-scrollbar {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+  }
 }
   
 
