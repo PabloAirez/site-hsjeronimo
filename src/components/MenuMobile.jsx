@@ -26,11 +26,11 @@ const MenuMobile = ({menu}) => {
             </li>
 
   {
-            menu.map((itemMenu,i)=>(
+            menu.map((itemMenu)=>(
               itemMenu.subItems ? ( //Caso o item de menu tenha subitens, ele cria um dropdown
-                <Dropdown key={i} text={itemMenu.text} subItems={itemMenu.subItems}></Dropdown>
+                <Dropdown key={itemMenu.id} text={itemMenu.text} subItems={itemMenu.subItems}></Dropdown>
               ) : (
-                <NavItem key={i} text={itemMenu.text} href={itemMenu.href}></NavItem>
+                <NavItem key={itemMenu.id} text={itemMenu.text} href={itemMenu.href}></NavItem>
     
               )
               )

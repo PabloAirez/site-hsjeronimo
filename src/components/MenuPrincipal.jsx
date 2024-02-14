@@ -1,63 +1,21 @@
-import { useState, useRef } from 'react'
+import { useState, useEffect } from 'react'
 import NavItem from './NavItem'
 import Dropdown from './Dropdown'
 import MenuMobile from './MenuMobile';
 import { HomeIcon } from '@heroicons/react/24/outline';
+import FetchApi from '../utils/FetchApi.js';
 
-
-const menu = [
-{"text":"Instituição",
-"subItems":[
-    {"text":"História do Hospital",
-    "href":"#"},
-    {"text":"Especialidades",
-    "href":"#"},
-    {"text":"Estrutura",
-    "href":"#"},
-    {"text":"Convênios e Planos",
-    "href":"#"},
-    {"text":"Trabalhe conosco",
-    "href":"#"}
-]},
-{"text":"Serviços",
-"subItems":[
-  {"text":"Assistência Social;",
-  "href":"#"},
-  {"text":"Bloco Cirúrgico",
-  "href":"#"},
-  {"text":"Centro Clínico",
-  "href":"#"},
-  {"text":"Centro Obstétrico e Maternidade",
-  "href":"#"},
-  {"text":"Internação",
-  "href":"#"},
-  {"text":"Laboratório de Análises Clínicas",
-  "href":"#"},
-  {"text":"Pronto Atendimento/Emergência",
-  "href":"#"},
-  {"text":"Pediatria",
-  "href":"#"},
-  {"text":"Psicologia",
-  "href":"#"}
-]},
-{"text":"Notícias",
-"href" : "#"},
-{"text":"Marcação de Consultas e Exames",
-"href" : "#"},
-{"text":"Doação de Sangue",
-"href" : "#"},
-{"text":"Parcerias",
-"href" : "#"},
-{"text":"LGPD",
-"href" : "#"},
-]
 
 
 
 export default function MenuPrincipal() {
 
   
-
+  const [menu, setMenu] = useState([]);
+  useEffect(()=>{
+      FetchApi("menuPrincipal",setMenu);
+  },[]);
+  
    
     return (
     <nav className="bg-secondaryColor shadow flex items-center w-screen fixed">
@@ -81,11 +39,11 @@ export default function MenuPrincipal() {
               </a>
           </li>
           
-          {menu.map((itemMenu,i)=>(
+          {menu.map((itemMenu)=>(
             itemMenu.subItems ? ( //Caso o item de menu tenha subitens, ele cria um dropdown
-              <Dropdown key={i} text={itemMenu.text} subItems={itemMenu.subItems}></Dropdown>
+              <Dropdown key={itemMenu.id} text={itemMenu.text} subItems={itemMenu.subItems}></Dropdown>
             ) : (
-              <NavItem key={i} text={itemMenu.text} href={itemMenu.href}></NavItem>
+              <NavItem key={itemMenu.id} text={itemMenu.text} href={itemMenu.href}></NavItem>
 
             )
             )

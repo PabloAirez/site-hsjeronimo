@@ -1,0 +1,165 @@
+{
+
+    "menuPrincipal" : [
+        {"id":1,
+        "text":"Instituição",
+        "subItems":[
+            {"id":1,
+            "text":"História do Hospital",
+            "href":"#"},
+            {"id":2,
+            "text":"Especialidades",
+            "href":"#"},
+            {"id":3,
+            "text":"Estrutura",
+            "href":"#"},
+            {"id":4,
+            "text":"Convênios e Planos",
+            "href":"#"},
+            {"id":5,
+            "text":"Trabalhe conosco",
+            "href":"#"}
+             ]},
+        {"id":2,
+        "text":"Serviços",
+        "subItems":[
+          {"id":1,
+          "text":"Assistência Social;",
+          "href":"#"},
+          {"id":2,
+          "text":"Bloco Cirúrgico",
+          "href":"#"},
+          {"id":3,
+          "text":"Centro Clínico",
+          "href":"#"},
+          {"id":4,
+          "text":"Centro Obstétrico e Maternidade",
+          "href":"#"},
+          {"id":5,
+          "text":"Internação",
+          "href":"#"},
+          {"id":6,
+          "text":"Laboratório de Análises Clínicas",
+          "href":"#"},
+          {"id":7,
+          "text":"Pronto Atendimento/Emergência",
+          "href":"#"},
+          {"id":8,
+          "text":"Pediatria",
+          "href":"#"},
+          {"id":9,
+          "text":"Psicologia",
+          "href":"#"}
+        ]},
+        {"id":3,
+        "text":"Notícias",
+        "href" : "#"},
+        {"id":4,
+        "text":"Marcação de Consultas e Exames",
+        "href" : "#"},
+        {"id":5,
+        "text":"Doação de Sangue",
+        "href" : "#"},
+        {"id":6,
+        "text":"Parcerias",
+        "href" : "#"},
+        {"id":7,
+        "text":"LGPD",
+        "href" : "#"}
+        ],
+
+    "menuSecundario" : [
+        {"id":1,
+        "text":"Laudos Médicos Online",
+        "href" : "#"},
+        {"id":2,
+        "text":"Pesquisa de Satisfação",
+        "href" : "#"}
+        ],
+
+    "cards" : [
+        {"id":1,
+        "title":"Marcação de Consultas",
+        "image": { "src": "./src/images/card1.jpg",
+                   "alt":"Clique aqui para ver as marcações de consultas"
+               }
+        },
+        {"id":2,
+        "title":"Convênios e Planos",
+        "image": { "src": "./src/images/card2.jpg",
+                   "alt":"Clique aqui para ver os convênios"
+               }
+        },
+        {"id":3,
+        "title":"Notícias",
+        "image": { "src": "./src/images/card3.jpg",
+                   "alt":"Clique aqui para ver as notícias"
+               }
+        },
+        {"id":4,
+        "title":"Especialidades",
+        "image": { "src": "./src/images/card4.jpg",
+                   "alt":"Clique aqui para ver as especialidades"
+               }
+        }
+   
+     ],
+
+     "servicos" : [
+        {"id":1,
+        "title":"Assistência Social",
+        "image": { "src": "./src/images/assistencia-social.jpg",
+                   "alt":"Clique aqui para ver sobre nossa assistência social"
+               }
+        },
+        {"id":2,
+        "title":"Bloco Cirúrgico",
+        "image": { "src": "./src/images/centro-cirurgico.jpg",
+                   "alt":"Clique aqui para ver sobre nosso bloco cirúrgico"
+               }
+        },
+        {"id":3,
+        "title":"Centro Clínico",
+        "image": { "src": "./src/images/centro-clinico.jpg",
+                   "alt":"Clique aqui para ver  sobre nosso centro clinico"
+               }
+        },
+        {"id":4,
+        "title":"Centro Obstétrico e Maternidade",
+        "image": { "src": "./src/images/maternidade.jpg",
+                   "alt":"Clique aqui para ver sobre nosso centro obstétrico e nossa maternidade"
+               }
+        },
+        {"id":5,
+        "title":"Internação",
+        "image": { "src": "./src/images/internacao.jpg",
+                   "alt":"Clique aqui para saber mais sobre as internações"
+               }
+        },
+        {"id":6,
+        "title":"Laboratório de Análises Clínicas",
+        "image": { "src": "./src/images/laboratorio.jpg",
+                   "alt":"Clique aqui para ver sobre nossa assistência social"
+               }
+        },
+        {"id":7,
+        "title":"Pronto Atendimento / Emergência",
+        "image": { "src": "./src/images/pronto-atendimento.jpg",
+                 "alt":"Clique aqui para ver sobre nossa emergência"
+               }
+        },
+        {"id":8,
+        "title":"Pediatria",
+        "image": { "src": "./src/images/pediatria.jpg",
+                 "alt":"Clique aqui para ver sobre nossa pediatria"
+               }
+        },
+        {"id":9,
+        "title":"Psicologia",
+        "image": { "src": "./src/images/psicologia.jpg",
+                 "alt":"Clique aqui para ver sobre nossa psicologia"
+               }
+        }
+    
+     ]
+}

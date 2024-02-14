@@ -1,25 +1,28 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import NavItem from './NavItem'
 import SearchBar from './SearchBar'
+import FetchApi from '../utils/FetchApi.js';
 
 
-const menu = [
-    {"text":"Laudos Médicos Online",
-    "href" : "#"},
-    {"text":"Pesquisa de Satisfação",
-    "href" : "#"}
-    ]
+
 
 
 const Banner = ({backgroundImage, title}) => {
+
+    const [menu, setMenu] = useState([]);
+    useEffect(()=>{
+        FetchApi("menuSecundario",setMenu);
+    },[]);
+
+
   return (
     <div  className={`h-banner w-screen   bg-center bg-cover`} style={{backgroundImage: backgroundImage}}>
         <div className='bg-blue-900/50 grid grid-rows-2 h-full w-full'>
             <div className="grid grid-cols-2 col-gap-2">
                     <img src="/logo.png" className='w-64 mt-16  h-32 ml-5 ' alt="logo do Hospital"  />
                     <ul className=' ml-20 mt-24 h-10 mr-5  xl:flex items-center justify-end'>
-                        {menu.map((option,i)=>(
-                            <NavItem key={i} text={option.text} href={option.href}></NavItem>
+                        {menu.map((option)=>(
+                            <NavItem key={option.id} text={option.text} href={option.href}></NavItem>
                         ))}
                         
                     </ul>
