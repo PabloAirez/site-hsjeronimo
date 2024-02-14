@@ -1,9 +1,9 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import NavItem from './NavItem'
 import Dropdown from './Dropdown'
 import MenuMobile from './MenuMobile';
 import { HomeIcon } from '@heroicons/react/24/outline';
-import FetchApi from '../utils/FetchApi.js';
+import { useFetch } from '../hooks/useFetch'
 
 
 
@@ -11,10 +11,7 @@ import FetchApi from '../utils/FetchApi.js';
 export default function MenuPrincipal() {
 
   
-  const [menu, setMenu] = useState([]);
-  useEffect(()=>{
-      FetchApi("menuPrincipal",setMenu);
-  },[]);
+  const {data : menu} = useFetch("menuPrincipal");
   
    
     return (

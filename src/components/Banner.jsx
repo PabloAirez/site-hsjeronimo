@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import NavItem from './NavItem'
 import SearchBar from './SearchBar'
-import FetchApi from '../utils/FetchApi.js';
+import { useFetch } from '../hooks/useFetch'
 
 
 
@@ -9,10 +9,7 @@ import FetchApi from '../utils/FetchApi.js';
 
 const Banner = ({backgroundImage, title}) => {
 
-    const [menu, setMenu] = useState([]);
-    useEffect(()=>{
-        FetchApi("menuSecundario",setMenu);
-    },[]);
+    const {data : menu} = useFetch("menuSecundario");
 
 
   return (

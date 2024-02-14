@@ -22,6 +22,9 @@
     .h-banner{
         height: 35rem;
     }
+    .h-cards{
+        height: 20rem;
+    }
     .w-search{
         width: 25rem;
     }
