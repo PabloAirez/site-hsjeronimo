@@ -1,9 +1,10 @@
-import { useState } from 'react'
+// Hooks
+import { useFetch } from '../hooks/useFetch'
+// Componentes
 import NavItem from './NavItem'
 import Dropdown from './Dropdown'
 import MenuMobile from './MenuMobile';
 import { HomeIcon } from '@heroicons/react/24/outline';
-import { useFetch } from '../hooks/useFetch'
 
 
 
