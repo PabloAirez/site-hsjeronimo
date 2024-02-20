@@ -6,6 +6,7 @@ import './App.css'
 import Home from './pages/Home'
 import Especialidades from './pages/Especialidades';
 import Historia from './pages/Historia'
+import Estrutura from './pages/Estrutura';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Route path="/" element={<Home/>}></Route>
       <Route path="/especialidades" element={<Especialidades/>}></Route>
       <Route path="/historia" element={<Historia/>}></Route>
+      <Route path="/estrutura" element={<Estrutura/>}></Route>
     </Routes>
  </BrowserRouter>
  </div>
