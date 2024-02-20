@@ -1,8 +1,11 @@
+// Hooks
 import { useState } from 'react'
+// Componentes
 import NavItem from './NavItem'
 import Dropdown from './Dropdown'
 import {Bars3Icon} from "@heroicons/react/24/solid";
 import { HomeIcon } from '@heroicons/react/24/outline';
+import { Link } from 'react-router-dom';
 
 const MenuMobile = ({menu}) => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -20,9 +23,9 @@ const MenuMobile = ({menu}) => {
 
     <div className={`${mobileMenuOpen ? "max-h-screen" : "max-h-0 invisible"} w-full transition-all duration-500 ease-in-out overflow-hidden`}>
             <li className='cursor-pointer flex justify-center w-full xl:w-auto px-10  py-3 h-full content-center group hover:bg-white duration-150'>
-              <a href="#">
+              <Link to="/">
                  <HomeIcon className='h-5 w-5 stroke-white group-hover:stroke-primaryColor'></HomeIcon>
-              </a>
+            </Link>
             </li>
 
   {

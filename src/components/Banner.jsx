@@ -19,14 +19,14 @@ const Banner = ({backgroundImage, title}) => {
                     <img src="/logo.png" className='w-64 mt-16  h-32 ml-5 ' alt="logo do Hospital"  />
                     <ul className=' ml-20 mt-24 h-10 mr-5  xl:flex items-center justify-end'>
                         {menu.map((option)=>(
-                            <NavItem key={option.id} text={option.text} href={option.href}></NavItem>
+                            <NavItem key={option.id} text={option.text} href={option.href} target={"_blank"}></NavItem>
                         ))}
                         
                     </ul>
             </div>
             <div className="flex-row ">
                 {title ? ( // Se for passado um Título de página, ele será exibido no lugar da barra de busca e número (que aparece no index)
-                    <p className='mt-32 sm:text-5xl text-4xl sm:ml-32 ml-20 font-bold text-white'>{title}</p>
+                    <p className='mt-32 sm:text-5xl text-4xl sm:ml-32 ml-10 font-bold text-white'>{title}</p>
                 ): (
                     <div className="flex-col content-center w-search">
                         <SearchBar></SearchBar>

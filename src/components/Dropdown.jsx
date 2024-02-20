@@ -1,6 +1,8 @@
-import React from 'react'
+// Hooks
 import { useState, useRef, useEffect } from 'react';
+// Componentes
 import {ChevronDownIcon, ChevronUpIcon} from "@heroicons/react/24/outline";
+import { Link } from "react-router-dom"
 
 const Dropdown = ({text, subItems}) => {
 
@@ -12,8 +14,10 @@ const Dropdown = ({text, subItems}) => {
    
     //O Hook useEffect abaixo tem como função verificar quando o mouse receber um novo clique, para assim, fechar o dropdown
    useEffect(()=>{
-        let handler = ()=>{
-            setDropdownOpen(false);
+        let handler = (e)=>{
+            if(e.target.tagName != "A"){
+                setDropdownOpen(false);
+            }            
         }
     document.addEventListener("mousedown",handler);
    });
@@ -38,7 +42,7 @@ const Dropdown = ({text, subItems}) => {
     <div  className={`bg-white ${dropdownOpen ? "max-h-screen" : "max-h-0 invisible hidden xl:inline-flex"} transition-all duration-500 ease-in-out overflow-hidden  xl:absolute top-full w-full xl:w-64 rounded-b-2xl rounded-l-lg rounded-r-lg pb-10 pl-5 pr-5 pt-5 rounded-t-none`}>
                     <ul className='w-full p-0'>
                         {subItems.map((subItem,i)=>(
-                            <li key={i} className='w-full  hover:bg-gray-100 transition duration-200 cursor-pointer pb-4'><a href={subItem.href} className='text-primaryColor w-full flex justify-center xl:justify-start'>{subItem.text}</a></li>
+                            <li key={i} className='w-full  hover:bg-gray-100 transition duration-200 cursor-pointer pb-4'><Link to={subItem.href} className='text-primaryColor w-full flex justify-center xl:justify-start'>{subItem.text}</Link></li>
                         ))}
                     </ul>
                 </div>
