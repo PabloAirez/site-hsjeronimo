@@ -20,7 +20,7 @@
         transition:grid-template-rows 500ms;
     }
     .h-banner{
-        height: 35rem;
+        height: 30rem;
     }
     .h-cards{
         height: 20rem;
@@ -35,7 +35,8 @@
     .no-scrollbar {
         -ms-overflow-style: none;  /* IE and Edge */
         scrollbar-width: none;  /* Firefox */
-  }
+    }
+
 }
   
 
