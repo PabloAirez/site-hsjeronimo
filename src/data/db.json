@@ -161,5 +161,51 @@
                }
         }
     
+     ],
+
+     "especialidades" : [
+        {"id":1,
+        "title":"Anestesiologia"
+        },
+        {"id":2,
+        "title":"Cirurgia Geral"
+        },
+        {"id":3,
+        "title":"Cirurgia Plástica"
+        },
+        {"id":4,
+        "title":"Cirurgia Vascular"
+        },
+        {"id":5,
+        "title":"Clínica Médica"
+        },
+        {"id":6,
+        "title":"Fonoaudiologia"
+        },
+        {"id":7,
+        "title":"Gastroenterologia"
+        },
+        {"id":8,
+        "title":"Ginecologia e Obstetrícia"
+        },
+        {"id":9,
+        "title":"Oftalmologia"
+        },
+        {"id":10,
+        "title":"Pediatria"
+        },
+        {"id":11,
+        "title":"Proctologia"
+        },
+        {"id":12,
+        "title":"Pneumologia"
+        },
+        {"id":13,
+        "title":"Traumatologia e Ortopedia"
+        },
+        {"id":14,
+        "title":"Urologia"
+        }
+    
      ]
 }
