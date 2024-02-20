@@ -18,7 +18,7 @@ const Home = () => {
       <>
     <MenuPrincipal></MenuPrincipal>
     <Banner backgroundImage={indexImage}></Banner>
-    <div className='flex flex-row flex-wrap h-1/4'> {/* Renderizando os cards */}
+    <div className='flex flex-row flex-wrap justify-center h-1/4'> {/* Renderizando os cards */}
     {
       cardsError ? (
         <p className='font-body text-3xl text-primaryColor w-full mb-8 mt-20 text-center'>{cardsError}</p>
