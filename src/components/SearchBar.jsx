@@ -34,14 +34,17 @@ const SearchBar = () => {
                       1000, 
                       'O que você está procurando?',
                       1000,
-                      'Como agendar consultas no Centro Clínico',
+                      'Como agendar consultas no Centro Clínico?',
                       1000,
                       'Convênios disponíveis',
-                      1000
+                      1000,
+                      'Especialidades disponíveis',
+                      1000,
                     ]}
                     wrapper="p"
                     speed={70}
                     repeat={Infinity}
+                    cursor={false}
                   />
 
                 </div>
