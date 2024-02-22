@@ -26,7 +26,7 @@ const Banner = ({backgroundImage, title}) => {
             </div>
             <div className="flex-row ">
                 {title ? ( // Se for passado um Título de página, ele será exibido no lugar da barra de busca e número (que aparece no index)
-                    <p className='mt-32 sm:text-5xl text-4xl sm:ml-32 ml-20 font-bold text-white'>{title}</p>
+                    <p className='mt-32 sm:text-5xl text-4xl sm:ml-32 ml-10 font-bold text-white'>{title}</p>
                 ): (
                     <div className="flex-col content-center w-search">
                         <SearchBar></SearchBar>
