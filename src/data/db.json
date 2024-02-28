@@ -24,7 +24,7 @@
         "text":"Serviços",
         "subItems":[
           {"id":1,
-          "text":"Assistência Social;",
+          "text":"Assistência Social",
           "href":"/servicos/assistencia-social"},
           {"id":2,
           "text":"Bloco Cirúrgico",

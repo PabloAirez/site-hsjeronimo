@@ -1,11 +1,9 @@
 import { useState } from 'react'
-import MenuPrincipal from './../components/MenuPrincipal'
 import Banner from './../components/Banner'
 import Card from './../components/Card'
 import backgroundImage from '..//images/indexBanner.jpg'
 import Carrossel from './../components/Carrossel'
 import Location from './../components/Location'
-import Footer from './../components/Footer'
 import { useFetch } from '../hooks/useFetch'
 
 const Home = () => {
@@ -16,7 +14,7 @@ const Home = () => {
   
     return (
       <>
-    <MenuPrincipal></MenuPrincipal>
+
     <Banner backgroundImage={indexImage}></Banner>
     <div className='flex flex-row flex-wrap justify-center h-1/4'> {/* Renderizando os cards */}
     {
@@ -46,7 +44,6 @@ const Home = () => {
   
     <Location></Location>
   
-    <Footer></Footer>
       </>
     )
 }

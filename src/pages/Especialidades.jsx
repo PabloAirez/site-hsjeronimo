@@ -2,7 +2,6 @@
 import React from 'react'
 import { useFetch } from '../hooks/useFetch'
 //Componentes
-import MenuPrincipal from './../components/MenuPrincipal'
 import Banner from './../components/Banner'
 import List from '../components/List'
 //Imagens
@@ -15,9 +14,10 @@ const Especialidades = () => {
 
   return (
     <>
-    <MenuPrincipal></MenuPrincipal>
+
     <Banner backgroundImage={especialidadeImage} title={"Especialidades Médicas"}></Banner>
     <List itens={especialidades} error={especialidadesError}></List>
+   
 
     </>
   )

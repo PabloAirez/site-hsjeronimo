@@ -2,7 +2,7 @@ import React from 'react'
 
 const Location = () => {
   return (
-    <div className=' h-1/4 w-full mb-24'>
+    <div className=' h-1/4 w-full'>
         <p className='font-body text-3xl text-primaryColor w-full mb-8 mt-20 text-center'>Localização</p>
         <p className='font-body text-primaryColor text-center mb-5'>O Hospital está localizado na Rua Rio Branco, no 1008,
             Bairro Bela Vista, CEP: 96700-000, no centro da cidade

@@ -19,6 +19,9 @@ export default {
       },
       transitionProperty: {
         'height': 'height',
+      },
+      fontSize:{
+        subtitle: "1.50rem"
       }
   },
   plugins: [],
