@@ -7,7 +7,7 @@ const Accordion = ({title, text, image}) => {
 
   return (
 
-    <div className="flex flex-col pl-40 pr-40 mt-16 sm:ml-32 ml-10 sm:mr-56 mr-10">
+    <div className="flex flex-col mb-10 sm:ml-60 ml-10 sm:mr-60 mr-10">
       <div className="flex flex-row justify-center border-b-2 border-solid border-black/10">
       <button onClick={() => setAccordionOpen(!accordionOpen)}className="flex justify-between w-full">
         <span className="text-body text-primaryColor  text-subtitle mb-4 ml-3">{title}</span>

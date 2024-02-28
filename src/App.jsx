@@ -7,9 +7,11 @@ import Home from './pages/Home'
 import Especialidades from './pages/Especialidades';
 import Historia from './pages/Historia'
 import LGPD from './pages/LGPD'
+import Socioambiental from './pages/Socioambiental';
 //Componentes
 import MenuPrincipal from './components/MenuPrincipal';
 import Footer from './components/Footer';
+
 
 
 function App() {
@@ -26,6 +28,7 @@ function App() {
       <Route path="/especialidades" element={<Especialidades/>}></Route>
       <Route path="/historia" element={<Historia/>}></Route>
       <Route path="/lgpd" element={<LGPD/>}></Route>
+      <Route path='/socioambiental' element={<Socioambiental/>}></Route>
     </Routes>
     <Footer></Footer>
  </BrowserRouter>
