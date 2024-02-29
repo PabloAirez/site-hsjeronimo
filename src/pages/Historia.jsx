@@ -22,6 +22,8 @@ const Historia = () => {
     window.innerWidth < 1024 ? (true) : (false)
   ); // State que controla se o site está aberto em um dispositivo móvel ou não
 
+
+
   window.onresize = function() {
     window.innerWidth < 1024 ? setIsMobile(true) : setIsMobile(false);
 };
@@ -52,7 +54,7 @@ const Historia = () => {
 
     ) : (
 
-      <div className='relative lg:w-full lg:h-full bg-red-500'>
+      <div style={{height: "35rem"}} className='relative w-full'>
       <Image image={history} top={"auto"} left={"40%"} right={"0%"} bottom={"auto"}></Image>
       <CardText title={"Nossa Missão:"} text={"Proporcionar assistência à saúde, qualificada e humanizada."}  top={"20%"} left={"28%"} right={"0%"} bottom={"auto"}></CardText>
       <CardText title={"Nossa Visão:"} text={"Ser referência do Sistema Único de Saúde na Região Metropolitana do Rio Grande do Sul, até 2020."} top={"28%"} left={"55%"} right={"0%"} bottom={"auto"}></CardText>
