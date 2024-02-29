@@ -225,5 +225,15 @@
             "text":"Política de Controle de Infecção",
             "href":"#"
           }
-        ]
+        ],
+
+     "images" :[
+        {"id":1,
+        "page": "Historia",
+         "src": "./src/images/historia.png",
+         "alt":"Imagem de fundo"
+               
+        }
+
+     ]
 }

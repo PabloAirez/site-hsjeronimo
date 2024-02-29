@@ -2,7 +2,8 @@ import {useRef} from 'react'
 import Card from './Card'
 import { ChevronRightIcon, ChevronLeftIcon } from '@heroicons/react/24/outline';
 
-const Carrossel = ({cards}) => {
+const Carrossel = ({cards, type}) => {
+
 
     const carrossel = useRef(null);
 
