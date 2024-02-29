@@ -8,9 +8,11 @@ import Especialidades from './pages/Especialidades';
 import Historia from './pages/Historia'
 import LGPD from './pages/LGPD'
 import Socioambiental from './pages/Socioambiental';
+import TrabalheConosco from './pages/TrabalheConosco';
 //Componentes
 import MenuPrincipal from './components/MenuPrincipal';
 import Footer from './components/Footer';
+
 
 
 
@@ -29,6 +31,7 @@ function App() {
       <Route path="/historia" element={<Historia/>}></Route>
       <Route path="/lgpd" element={<LGPD/>}></Route>
       <Route path='/socioambiental' element={<Socioambiental/>}></Route>
+      <Route path='/trabalhe-conosco' element={<TrabalheConosco/>}></Route>
     </Routes>
     <Footer></Footer>
  </BrowserRouter>
