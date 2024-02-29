@@ -31,12 +31,14 @@ export default function MenuPrincipal() {
      <div className="hidden xl:flex">
 
         <ul className='h-full w-full mr-40 ml-20  flex items-center'>
+        <Link to="/">
           <li className='mt-100 md:mt-0 cursor-pointer w-full xl:w-auto px-10  py-3 h-auto md:h-fullcontent-center group hover:bg-white duration-150 '>
-              <Link to="/">
+              
                   <HomeIcon className='h-5 w-5 stroke-white group-hover:stroke-primaryColor'></HomeIcon>
 
-              </Link>
+              
           </li>
+          </Link>
           
           {menu.map((itemMenu)=>(
             itemMenu.subItems ? ( //Caso o item de menu tenha subitens, ele cria um dropdown
