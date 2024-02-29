@@ -8,9 +8,9 @@ const CardText = ({title, text, top, left, right, bottom}) => {
     
 
   <>
-    <div style={{top: top, left: left, right:right, bottom: bottom}} className={`absolute w-64`}>
-        <h3 className='font-body text-primaryColor font-bold text-lg w-64'>{title}</h3>
-        <p className='font-body text-primaryColor w-64'>{text}</p>
+    <div style={{top: top, left: left, right:right, bottom: bottom}} className={`lg:absolute lg:w-64 w-40 relative`}>
+        <h3 className='font-body text-primaryColor font-bold lg:left-auto left-64 text-lg lg:w-64 w-40 '>{title}</h3>
+        <p className='font-body text-primaryColor lg:w-64  lg:left-auto left-64 '>{text}</p>
     </div>
 
   </>
