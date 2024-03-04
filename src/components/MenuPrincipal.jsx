@@ -17,7 +17,7 @@ export default function MenuPrincipal() {
   
    
     return (
-    <nav className="bg-secondaryColor shadow flex items-center w-screen fixed">
+    <nav className="bg-secondaryColor shadow flex items-center w-full fixed">
 
       { //Esta sessão é para mobile  
       }

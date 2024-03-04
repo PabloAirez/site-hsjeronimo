@@ -16,7 +16,7 @@ const Home = () => {
       <>
 
     <Banner backgroundImage={indexImage}></Banner>
-    <div className='flex flex-row flex-wrap justify-center h-1/4'> {/* Renderizando os cards */}
+    <div className='flex flex-row flex-wrap justify-between h-1/4'> {/* Renderizando os cards */}
     {
       cardsError ? (
         <p className='font-body text-3xl text-primaryColor w-full mb-8 mt-20 text-center'>{cardsError}</p>
@@ -31,7 +31,7 @@ const Home = () => {
     </div>
   
     <div className=' h-1/4 w-full'>
-    <p className='font-body text-3xl text-primaryColor w-full mb-8 mt-10 text-center'>Serviços</p>
+    <p className='font-body text-3xl text-primaryColor w-full mt-10 text-center'>Serviços</p>
     {
       servicosError ? (
         <p className='font-body text-3xl text-primaryColor w-full mb-8 mt-20 text-center'>{servicosError}</p>

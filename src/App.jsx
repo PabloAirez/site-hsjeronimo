@@ -12,6 +12,7 @@ import Socioambiental from './pages/Socioambiental';
 import MenuPrincipal from './components/MenuPrincipal';
 import Footer from './components/Footer';
 
+import Estrutura from './pages/Estrutura';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
       <Route path="/historia" element={<Historia/>}></Route>
       <Route path="/lgpd" element={<LGPD/>}></Route>
       <Route path='/socioambiental' element={<Socioambiental/>}></Route>
+      <Route path="/estrutura" element={<Estrutura/>}></Route>
     </Routes>
     <Footer></Footer>
  </BrowserRouter>
