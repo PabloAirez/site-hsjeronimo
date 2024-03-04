@@ -12,7 +12,6 @@ import backgroundImage from './../images/hospital.jpg'
 
 const Historia = () => {
   let history = null
-  const historyImage = `url('${backgroundImage}')`;
   const {data : images} = useFetch("images");
   images.map((image)=>{
     
@@ -32,7 +31,7 @@ const Historia = () => {
 
   return (
     <>
-    <Banner title={"História do Hospital"} backgroundImage={historyImage}></Banner>
+    <Banner title={"História do Hospital"} backgroundImage={backgroundImage}></Banner>
     <Paragraph text={"A ideia da construção de um Hospital em São Jerônimo surgiu em 1947, pela necessidade de um atendimento à saúde especializado na Região. A construção se deu com a ajuda da comunidade local organizada por algumas pessoas influentes, que compunham a Diretoria da Sociedade Hospitalar."}></Paragraph>
     <Paragraph text={"Em 30 de setembro de 1952 foi fundado o edificio hospitalar. Após seis meses, a diretoria procurou as religiosas da Congregação das Irmãs do Imaculado Coração de Maria, tornando o Hospital uma entidade filantrópica privada, tendo como Entidade Mantenedora a Sociedade Educação e Caridade."}></Paragraph>
     <Paragraph text={"A instituição foi entregue oficialmente à Congregação em 1964, que, através da Sociedade Educação e Caridade (SEC), que manteve a administração do Hospital até 15 de dezembro de 2009. A partir desta data, a AFPERGS - Associação dos Funcionários Públicos do Estado do Rio Grande do Sul, assumiu a entidade mantenedora do Hospital."}></Paragraph>

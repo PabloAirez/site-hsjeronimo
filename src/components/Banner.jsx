@@ -13,7 +13,7 @@ const Banner = ({backgroundImage, title}) => {
 
 
   return (
-    <div  className={`h-banner w-full   bg-center bg-cover`} style={{backgroundImage: backgroundImage}}>
+    <div  className={`h-banner w-full   bg-center bg-cover`} style={{backgroundImage: `url('${backgroundImage}')`}}>
         <div className='bg-blue-900/50 grid grid-rows-2 h-full w-full'>
             <div className="grid grid-cols-2 col-gap-2">
                     <img src="/logo.png" className='w-64 mt-16  h-32 ml-5 ' alt="logo do Hospital"  />

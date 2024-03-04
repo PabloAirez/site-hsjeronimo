@@ -7,11 +7,10 @@ import Accordion from '../components/Accordion'
 import backgroundImage from './../images/socioambiental.jpg'
 
 const Socioambiental = () => {
-    const environmentalImage = `url('${backgroundImage}')`;
 
   return (
     <>
-    <Banner title={"Política Socioambiental"} backgroundImage={environmentalImage}></Banner>
+    <Banner title={"Política Socioambiental"} backgroundImage={backgroundImage}></Banner>
     <Paragraph title={"Sustentabilidade como prioridade"} text={"O Hospital Regional de São Jerônimo tem, em sua estratégia, a sustentabilidade ambiental como um dos mais importantes pilares de sustentação, pois entendemos que devemos preservar os recursos naturais cada vez mais escassos e minimizar os impactos ambientais decorrentes de nossas atividades."}></Paragraph>
     <Accordion title={"Atendimento legal:"} text={"Cumprir com os requisitos legais e outros requisitos subscritos pela instituição;"}></Accordion>
     <Accordion title={"Ética Socioambiental:"} text={"Criar canais de comunicação aberto junto ao público interno e externo, colaborando com o Desenvolvimento Sustentável;"}></Accordion>

@@ -8,12 +8,11 @@ import backgroundImage from "./../images/estruturaBanner.png"
 import Gallery from "../components/Gallery"
 
 const Estrutura = () => {
-  const estruturaImage = `url('${backgroundImage}')`;
   const {data : imagens} = useFetch("imagensEstrutura");
 
   return (
     <>
-    <Banner title={"Estrutura"} backgroundImage={estruturaImage}></Banner>
+    <Banner title={"Estrutura"} backgroundImage={backgroundImage}></Banner>
     <Gallery images={imagens} title={"Conheça a nossa Estrutura"}></Gallery>
     </>
   )

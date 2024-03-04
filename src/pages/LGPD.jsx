@@ -7,11 +7,10 @@ import Accordion from '../components/Accordion'
 import backgroundImage from './../images/lgpd.jpg'
 
 const LGPD = () => {
-  const securityImage = `url('${backgroundImage}')`;
 
   return (
     <>
-      <Banner title={"LGPD"} backgroundImage={securityImage}></Banner>
+      <Banner title={"LGPD"} backgroundImage={backgroundImage}></Banner>
       <Paragraph text={"LGPD - Lei Geral de Proteção de Dados. Descrição e informações referente ao LGPD"}></Paragraph>
       <Accordion title={"Informar o Título"} text={"Descrição o texto"}></Accordion>
     </>

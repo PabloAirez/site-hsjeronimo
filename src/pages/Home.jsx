@@ -7,7 +7,6 @@ import Location from './../components/Location'
 import { useFetch } from '../hooks/useFetch'
 
 const Home = () => {
-    const indexImage = `url('${backgroundImage}')`;
     const {data : cards, error : cardsError} = useFetch("cards");
     const {data : servicos, error : servicosError} = useFetch("servicos");
 
@@ -15,7 +14,7 @@ const Home = () => {
     return (
       <>
 
-    <Banner backgroundImage={indexImage}></Banner>
+    <Banner backgroundImage={backgroundImage}></Banner>
     <div className='flex flex-row flex-wrap justify-between h-1/4'> {/* Renderizando os cards */}
     {
       cardsError ? (
