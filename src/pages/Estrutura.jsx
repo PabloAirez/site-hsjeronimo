@@ -5,17 +5,16 @@ import { useFetch } from "../hooks/useFetch"
 import MenuPrincipal from "./../components/MenuPrincipal"
 import Banner from "../components/Banner"
 import backgroundImage from "./../images/estruturaBanner.png"
-import Carrossel from "./../components/Carrossel"
+import Gallery from "../components/Gallery"
 
 const Estrutura = () => {
   const estruturaImage = `url('${backgroundImage}')`;
-  const {data : servicos, error : servicosError} = useFetch("servicos");
+  const {data : imagens} = useFetch("imagensEstrutura");
 
   return (
     <>
-    <MenuPrincipal></MenuPrincipal>
     <Banner title={"Estrutura"} backgroundImage={estruturaImage}></Banner>
-    <Carrossel cards={servicos}></Carrossel>
+    <Gallery images={imagens} title={"Conheça a nossa Estrutura"}></Gallery>
     </>
   )
 }

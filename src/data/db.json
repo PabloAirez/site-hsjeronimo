@@ -207,5 +207,29 @@
         "title":"Urologia"
         }
     
+     ],
+
+     "imagensEstrutura" : [
+        {"id":1,
+        "src": "./src/images/entrada-predio-novo.png",
+        "alt":"Entrada do Prédio novo"
+        },
+        {"id":2,
+        "src": "./src/images/posto-enfermagem-2.png",
+        "alt":"Postos de enfermagem novos"
+        },
+        {"id":3,
+        "src": "./src/images/sala-acompanhante.png",
+        "alt":"Sala de lazer para acompanhantes"
+        },
+        {"id":4,
+        "src": "./src/images/leito.png",
+        "alt":"Leitos organizados e com comodidade para o paciente"
+        },
+        {"id":5,
+        "src": "./src/images/leito2.png",
+        "alt":"Leitos organizados e com comodidade para o paciente"
+        }
+   
      ]
 }

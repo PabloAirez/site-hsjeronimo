@@ -33,7 +33,7 @@ const Home = () => {
     </div>
   
     <div className=' h-1/4 w-full'>
-    <p className='font-body text-3xl text-primaryColor w-full mb-8 mt-10 text-center'>Serviços</p>
+    <p className='font-body text-3xl text-primaryColor w-full mt-10 text-center'>Serviços</p>
     {
       servicosError ? (
         <p className='font-body text-3xl text-primaryColor w-full mb-8 mt-20 text-center'>{servicosError}</p>
