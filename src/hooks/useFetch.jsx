@@ -15,7 +15,7 @@ export const useFetch = (endPoint) => {
     const [method,setMethod] = useState([]); // GET, POST, UPDATE, DELETE
     const [error,setError] = useState(false);
     const [callFetch, setCallFetch] = useState(false); // Serve para chamar novamente o fetch com GET após executar um método POST
-    const urlBase = "http://localhost:3000";
+    const urlBase = "http://192.168.8.75:3000";
 
     const httpConfig = (data,method)=>{
         if(method === "POST"){
