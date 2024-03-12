@@ -13,7 +13,7 @@ const Estrutura = () => {
   return (
     <>
     <Banner title={"Estrutura"} backgroundImage={backgroundImage}></Banner>
-    <Gallery images={imagens} title={"Conheça a nossa Estrutura"}></Gallery>
+    <Gallery images={imagens}></Gallery>
     </>
   )
 }

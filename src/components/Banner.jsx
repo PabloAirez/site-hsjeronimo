@@ -37,7 +37,7 @@ const Banner = ({backgroundImage, title}) => {
                             </svg>
 
                             </div>
-                            <p className='mt-8 ml-2 font-body text-white'>(51) 3651-8500</p>
+                            <a href="tel:5136518500" className='mt-8 ml-2 font-body text-white'>(51) 3651-8500</a>
                         </div>
                     </div>
                 )}

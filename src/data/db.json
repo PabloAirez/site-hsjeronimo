@@ -1,4 +1,6 @@
+
 {
+  
 
     "menuPrincipal" : [
         {"id":1,
@@ -33,16 +35,16 @@
           "text":"Centro Clínico",
           "href":"/servicos/centro-clinico"},
           {"id":4,
-          "text":"Centro Obstétrico e Maternidade",
+          "text":"Maternidade",
           "href":"/servicos/maternidade"},
           {"id":5,
           "text":"Internação",
           "href":"/servicos/internacao"},
           {"id":6,
-          "text":"Laboratório de Análises Clínicas",
+          "text":"Laboratório",
           "href":"/servicos/laboratorio"},
           {"id":7,
-          "text":"Pronto Atendimento/Emergência",
+          "text":"Emergência",
           "href":"/servicos/emergencia"},
           {"id":8,
           "text":"Pediatria",
@@ -80,24 +82,28 @@
     "cards" : [
         {"id":1,
         "title":"Marcação de Consultas",
+        "href": "/consultas-exames",
         "image": { "src": "./src/images/card1.jpg",
                    "alt":"Clique aqui para ver as marcações de consultas"
                }
         },
         {"id":2,
         "title":"Convênios e Planos",
+        "href": "/convenios-e-planos",
         "image": { "src": "./src/images/card2.jpg",
                    "alt":"Clique aqui para ver os convênios"
                }
         },
         {"id":3,
         "title":"Notícias",
+        "href": "/noticias",
         "image": { "src": "./src/images/card3.jpg",
                    "alt":"Clique aqui para ver as notícias"
                }
         },
         {"id":4,
         "title":"Especialidades",
+        "href": "/especialidades",
         "image": { "src": "./src/images/card4.jpg",
                    "alt":"Clique aqui para ver as especialidades"
                }
@@ -106,105 +112,125 @@
      ],
 
      "servicos" : [
-        {"id":1,
-        "title":"Assistência Social",
-        "image": { "src": "./src/images/assistencia-social.jpg",
-                   "alt":"Clique aqui para ver sobre nossa assistência social"
-               }
-        },
-        {"id":2,
-        "title":"Bloco Cirúrgico",
-        "image": { "src": "./src/images/centro-cirurgico.jpg",
-                   "alt":"Clique aqui para ver sobre nosso bloco cirúrgico"
-               }
-        },
-        {"id":3,
-        "title":"Centro Clínico",
-        "image": { "src": "./src/images/centro-clinico.jpg",
-                   "alt":"Clique aqui para ver  sobre nosso centro clinico"
-               }
-        },
-        {"id":4,
-        "title":"Centro Obstétrico e Maternidade",
-        "image": { "src": "./src/images/maternidade.jpg",
-                   "alt":"Clique aqui para ver sobre nosso centro obstétrico e nossa maternidade"
-               }
-        },
-        {"id":5,
+      {"id":1,
+      "title":"Emergência",
+      "href": "/servicos/emergencia",
+      "image": { "src": "./src/images/pronto-atendimento.jpg",
+               "alt":"Clique aqui para ver sobre nossa emergência"
+             }
+      },
+      {"id":2,
         "title":"Internação",
-        "image": { "src": "./src/images/internacao.jpg",
+        "href": "/servicos/internacao",
+        "image": { "src": "./src/images/leito2.png",
                    "alt":"Clique aqui para saber mais sobre as internações"
                }
         },
-        {"id":6,
-        "title":"Laboratório de Análises Clínicas",
-        "image": { "src": "./src/images/laboratorio.jpg",
-                   "alt":"Clique aqui para ver sobre nossa assistência social"
-               }
-        },
-        {"id":7,
-        "title":"Pronto Atendimento/Emergência",
-        "image": { "src": "./src/images/pronto-atendimento.jpg",
-                 "alt":"Clique aqui para ver sobre nossa emergência"
-               }
-        },
-        {"id":8,
+      {"id":3,
         "title":"Pediatria",
+        "href": "/servicos/pediatria",
         "image": { "src": "./src/images/pediatria.jpg",
                  "alt":"Clique aqui para ver sobre nossa pediatria"
                }
         },
-        {"id":9,
-        "title":"Psicologia",
-        "image": { "src": "./src/images/psicologia.jpg",
-                 "alt":"Clique aqui para ver sobre nossa psicologia"
+      {"id":4,
+        "title":"Maternidade",
+        "href": "/servicos/maternidade",
+        "image": { "src": "./src/images/maternidade.jpg",
+                   "alt":"Clique aqui para ver sobre nosso centro obstétrico e nossa maternidade"
                }
-        }
+      },  
+      {"id":5,
+        "title":"Bloco Cirúrgico",
+        "href": "/servicos/bloco-cirurgico",
+        "image": { "src": "./src/images/centro-cirurgico.jpg",
+                   "alt":"Clique aqui para ver sobre nosso bloco cirúrgico"
+               }
+      },
+      {"id":6,
+        "title":"Centro Clínico",
+        "href": "/servicos/centro-clinico",
+        "image": { "src": "./src/images/centro-clinico.jpg",
+                   "alt":"Clique aqui para ver  sobre nosso centro clinico"
+               }
+      },
+      {"id":7,
+      "title":"Assistência Social",
+      "href": "/servicos/assistencia-social",
+      "image": { "src": "./src/images/assistencia-social.jpg",
+                 "alt":"Clique aqui para ver sobre nossa assistência social"
+               }
+      },
+      {"id":8,
+      "title":"Psicologia",
+      "href": "/servicos/psicologia",
+      "image": { "src": "./src/images/psicologia.jpg",
+               "alt":"Clique aqui para ver sobre nossa psicologia"
+             }
+      },
+      {"id":9,
+        "title":"Laboratório",
+        "href": "/servicos/laboratorio",
+        "image": { "src": "./src/images/laboratorio.jpg",
+                   "alt":"Clique aqui para ver sobre nossa assistência social"
+               }
+      }
+      
     
      ],
 
      "especialidades" : [
         {"id":1,
-        "title":"Anestesiologia"
+        "title":"Anestesiologia",
+        "icon": "injection"
         },
         {"id":2,
-        "title":"Cirurgia Geral"
+        "title":"Cirurgia Geral",
+        "icon":"mask"
         },
         {"id":3,
-        "title":"Cirurgia Plástica"
+        "title":"Cirurgia Plástica",
+        "icon":"face"
         },
         {"id":4,
-        "title":"Cirurgia Vascular"
+        "title":"Cirurgia Vascular",
+        "icon":"blood"
         },
         {"id":5,
-        "title":"Clínica Médica"
+        "title":"Clínica Médica",
+        "icon":"doctor"
         },
         {"id":6,
-        "title":"Fonoaudiologia"
+        "title":"Fonoaudiologia",
+        "icon":"speak"
         },
         {"id":7,
-        "title":"Gastroenterologia"
+        "title":"Ginecologia e Obstetrícia",
+        "icon":"baby"
         },
         {"id":8,
-        "title":"Ginecologia e Obstetrícia"
+        "title":"Oftalmologia",
+        "icon":"glasses"
         },
         {"id":9,
-        "title":"Oftalmologia"
+        "title":"Pediatria",
+        "icon":"kid"
         },
         {"id":10,
-        "title":"Pediatria"
+        "title":"Proctologia",
+        "icon":"medicineBottle"
         },
         {"id":11,
-        "title":"Proctologia"
+        "title":"Pneumologia",
+        "icon":"lung"
         },
         {"id":12,
-        "title":"Pneumologia"
+        "title":"Traumatologia e Ortopedia",
+        "icon":"crutches"
         },
         {"id":13,
-        "title":"Traumatologia e Ortopedia"
-        },
-        {"id":14,
-        "title":"Urologia"
+        "title":"Urologia",
+        "icon":"kidney"
         }
     
      ],
@@ -239,22 +265,27 @@
 
      "imagensEstrutura" : [
         {"id":1,
+        "description":"Conheça a nossa Estrutura",
         "src": "./src/images/entrada-predio-novo.png",
         "alt":"Entrada do Prédio novo"
         },
         {"id":2,
+        "description":"Atualmente possuímos 5 Andares em uso",
         "src": "./src/images/posto-enfermagem-2.png",
         "alt":"Postos de enfermagem novos"
         },
         {"id":3,
+        "description":"7.000m2  de área construída",
         "src": "./src/images/sala-acompanhante.png",
         "alt":"Sala de lazer para acompanhantes"
         },
         {"id":4,
+        "description":"183 leitos",
         "src": "./src/images/leito.png",
         "alt":"Leitos organizados e com comodidade para o paciente"
         },
         {"id":5,
+        "description":"06 Leitos de UTI Geral",
         "src": "./src/images/leito2.png",
         "alt":"Leitos organizados e com comodidade para o paciente"
         }

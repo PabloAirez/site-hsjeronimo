@@ -21,7 +21,7 @@ const Home = () => {
         <p className='font-body text-3xl text-primaryColor w-full mb-8 mt-20 text-center'>{cardsError}</p>
       ) : (
           cards.map((card)=>(
-            <Card key={card.id} title={card.title} image={card.image}></Card>
+            <Card key={card.id} title={card.title} image={card.image} href={card.href}></Card>
           ))
       )}
       

@@ -3,7 +3,7 @@ import React from 'react'
 import { useFetch } from '../hooks/useFetch'
 //Componentes
 import Banner from './../components/Banner'
-import List from '../components/List'
+import Carrossel from '../components/Carrossel'
 //Imagens
 import backgroundImage from './../images/especialidadesBanner.jpg'
 
@@ -15,7 +15,9 @@ const Especialidades = () => {
     <>
 
     <Banner backgroundImage={backgroundImage} title={"Especialidades Médicas"}></Banner>
-    <List itens={especialidades} error={especialidadesError}></List>
+    {
+      <Carrossel cards={especialidades}></Carrossel>
+    }
    
 
     </>

@@ -26,7 +26,7 @@ const Carrossel = ({cards}) => {
     
     <div ref={carrossel} className='flex overflow-x-auto scroll-smooth no-scrollbar flex-none w-full'>
         {cards.map((card)=>(
-                <Card key={card.id} title={card.title} image={card.image}></Card>
+                <Card key={card.id} title={card.title} image={card.image} href={card.href} icon={card.icon}></Card>
          ))}
     </div>
 

@@ -22,7 +22,7 @@ const Gallery = ({images, title}) => {
                     <img key={images.id} src={images.src} alt={images.alt} className='w-full'/>
                 </div>
             ):(
-            <div className="overflow-hidden shadow-2xl relative w-1/2 m-auto mt-20 mb-10 border-1 border-solid border-black">
+            <div className="overflow-hidden shadow-2xl relative xl:w-1/3 sm:w-1/2 w-full m-auto mt-20  border-1 border-solid border-black">
                 <div className="flex transition-transform ease-out duration-1000 " style={{transform: `translateX(-${currentImage*100}%)`}}>
                     {
                         images.map((image)=>(
@@ -32,7 +32,7 @@ const Gallery = ({images, title}) => {
                 </div>
                
 
-                <div className="absolute inset-0 flex items-end  justify-center"><p className='bg-black/50 w-full text-center text-white h-24 font-bold text-xl font-body '>{title}</p></div>
+                <div className="absolute inset-0 flex items-end  justify-center"><p className='bg-black/50 w-full text-center text-white h-24 font-bold text-xl font-body '>{images[currentImage] &&  images[currentImage].description}</p></div>
                 
                 <div className="absolute inset-0 flex items-center justify-between p-4 ">
                     <button onClick={handleLeft} className='group p-1 rounded-full bg-white hover:bg-secondaryColor shadow duration-100'><ChevronLeftIcon className='w-10 h-10  stroke-primaryColor group-hover:stroke-white'></ChevronLeftIcon></button>
