@@ -1,3 +1,4 @@
+import { ArrowLeftCircleIcon } from '@heroicons/react/24/outline'
 import React from 'react'
 
 const Paragraph = ({title, text, classNameText, classNameTitle, hover}) => {

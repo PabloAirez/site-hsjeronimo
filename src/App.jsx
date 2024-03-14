@@ -9,11 +9,13 @@ import Historia from './pages/Historia'
 import LGPD from './pages/LGPD'
 import Convenios from './pages/Convenios'
 import Socioambiental from './pages/Socioambiental';
+import TrabalheConosco from './pages/TrabalheConosco';
 //Componentes
 import MenuPrincipal from './components/MenuPrincipal';
 import Footer from './components/Footer';
 
 import Estrutura from './pages/Estrutura';
+
 
 
 function App() {
@@ -33,6 +35,7 @@ function App() {
       <Route path='/socioambiental' element={<Socioambiental/>}></Route>
       <Route path="/estrutura" element={<Estrutura/>}></Route>
       <Route path="/convenios-e-planos" element={<Convenios/>}></Route>
+      <Route path='/trabalhe-conosco' element={<TrabalheConosco/>}></Route>
     </Routes>
     <Footer></Footer>
  </BrowserRouter>
