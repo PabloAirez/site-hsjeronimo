@@ -7,11 +7,10 @@ import {NewspaperIcon} from "@heroicons/react/24/outline";
 import backgroundImage from './../images/trabalhe-conosco.jpg'
 
 const TrabalheConosco = () => {
-  const workImage = `url('${backgroundImage}')`;
 
   return (
     <>
-    <Banner title={"Trabalhe Conosco"} backgroundImage={workImage}></Banner>
+    <Banner title={"Trabalhe Conosco"} backgroundImage={backgroundImage}></Banner>
     <div className='flex flex-row align-middle'>
       <div className='flex flex-col w-auto'>
         <Paragraph className={""} title={"Faça parte da nossa equipe!"} text={"Envie seu currículo para o e-mail:"}></Paragraph>
