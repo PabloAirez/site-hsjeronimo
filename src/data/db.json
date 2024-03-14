@@ -290,5 +290,144 @@
         "alt":"Leitos organizados e com comodidade para o paciente"
         }
    
-     ]
+     ],
+     "planosSaude" : [
+      {
+        "id" : 1,
+        "image": {
+            "alt": "Amil",
+            "src" : "./src/images/amil.jpg"
+        },   
+        "description": "Atendimentos de emergência, internação urgência e exames externos."
+      },
+      {
+        "id" : 2,
+        "image": {
+          "alt": "Bradesco",
+          "src" : "./src/images/bradesco.jpg"
+        },
+        "description": "Atendimentos de emergência, internação urgência."
+      },
+      {
+        "id" : 3,
+        "image": {
+          "alt": "CABERGS",
+          "src" : "./src/images/cabergs.jpg"
+        },
+        "description": "Atendimentos de emergência, eletivo, internação urgência e exames externos."
+      },
+      {
+        "id" : 4,
+        "image": {
+          "alt": "CASSI",
+          "src" : "./src/images/cassi.png"
+        },
+        "description": "Atendimentos de emergência, internação urgência e exames externos."
+      },
+      {
+        "id" : 5,
+        "image":{
+          "alt": "Caixa",
+          "src" : "./src/images/caixa.png" 
+        },
+        "description": "Atendimentos de emergência, internação urgência e exames externos."
+      },
+      {
+        "id" : 6,
+        "image": {
+          "alt": "Centro clínico gaúcho",
+          "src" : "./src/images/ccg.jpg"
+        },
+        "description": "Atendimentos de emergência."
+      },
+      {
+        "id" : 7,
+        "image":{
+          "alt": "Danamed (GKN)",
+          "src" : "./src/images/danamed.jpg"
+        },
+        "description": "Atendimentos de emergência, eletivo, internação, exames externos."
+      },
+      {
+        "id" : 8,
+        "image":{
+          "alt": "Gerdau",
+          "src" : "./src/images/gerdau.jpg"
+        },
+        "description": "Atendimentos de emergência."
+      },
+      {
+        "id" : 9,
+        "image":{
+          "alt": "IBCM",
+          "src" : "./src/images/ibcm.png"
+        },
+        "description": "Atendimentos de emergência e exames externos."
+      },
+      {
+        "id" : 10,
+        "image":{
+          "alt": "IPERGS",
+          "src" : "./src/images/ipe.png"
+        },
+        "description": "Atendimentos de emergência, eletivo, internação, exames externos."
+      },
+      {
+        "id" : 11,
+        "image":{
+          "alt": "Patronal",
+          "src" : "./src/images/patronal.png"
+        },
+        "description": "Atendimentos de emergência, internação urgência e exames externos."
+      },
+      {
+        "id" : 12,
+        "image":{
+          "alt": "Porto Alegre Clínicas",
+          "src" : "./src/images/porto-alegre-clinicas.jpg"
+        },
+        "description": "Atendimentos de emergência."
+      },
+      {
+        "id" : 13,
+        "image":{
+          "alt": "Postal saúde",
+          "src" : "./src/images/postal-saude.jpg"
+        },
+        "description": "Atendimentos de emergência."
+      },
+      {
+        "id" : 14,
+        "image":{
+          "alt": "Unimed",
+          "src" : "./src/images/unimed.jpg"
+        },
+        "description": "Atendimentos de emergência, eletivo, internação, exames externos."
+      },
+      {
+        "id" : 15,
+        "image":{
+          "alt": "Verte Saúde (AFPERGS)",
+          "src" : "./src/images/verte-saude.png"
+        },
+        "description": "Atendimentos de emergência e exames externos (Obs.: somente o paciente beneficiado de Afpergs + IPE tem direito à internação de emergência)."
+      }
+     ],
+     "convenios": [
+      {
+        "id" : 1,
+        "image": {
+            "alt": "SUS",
+            "src" : "./src/images/sus.jpg"
+        }
+      },
+      {
+        "id" : 2,
+        "image": {
+            "alt": "Particular",
+            "src" : "./src/images/particular.jpg"
+        }
+      }
+    ]
+
 }

@@ -2,7 +2,7 @@ import {useRef} from 'react'
 import Card from './Card'
 import { ChevronRightIcon, ChevronLeftIcon } from '@heroicons/react/24/outline';
 
-const Carrossel = ({cards}) => {
+const Carrossel = ({cards,  rounded = false, classNameCard, classNameImage, classNameText}) => {
 
 
     const carrossel = useRef(null);
@@ -26,7 +26,7 @@ const Carrossel = ({cards}) => {
     
     <div ref={carrossel} className='flex overflow-x-auto scroll-smooth no-scrollbar flex-none w-full'>
         {cards.map((card)=>(
-                <Card key={card.id} title={card.title} image={card.image} href={card.href} icon={card.icon}></Card>
+                <Card key={card.id} title={card.title} description={card.description} image={card.image} href={card.href} icon={card.icon} rounded={rounded} classNameCard={classNameCard} classNameImage={classNameImage} classNameText={classNameText}></Card>
          ))}
     </div>
 

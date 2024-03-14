@@ -10,7 +10,7 @@ import { useState } from 'react';
 
 
 
-const Card = ({title, href,  description, image, rounded = false, classNameCard, icon}) => {
+const Card = ({title, href,  description, image, rounded = false, classNameCard, classNameImage, classNameText, icon}) => {
 /*
 * rounded - Prop que, se for verdadeiro, faz a imagem ser circular
 */
@@ -27,9 +27,9 @@ useState(
       <a href={href} className='w-full h-full flex flex-col flex-wrap'>
         {title && <p className=' font-body 2xl:text-xl sm:text-lg text-sm text-primaryColor text-center w-full mb-8  mt-8  group-hover:text-white duration-100 whitespace-nowrap'>{title}</p>
         }
-        <div className="flex flex-row justify-center">
+        <div className="flex flex-row justify-center w-full">
         {
-          image && <img src={`${image.src}`} alt={image.alt} className={`h-40 w-40 sm:h-56 sm:w-56  min-h-32 min-w-32 rounded-3xl  mb-8 ${rounded && "rounded-full"}`}  />
+          image && <img src={`${image.src}`} alt={image.alt} className={`h-40 w-40 sm:h-56 sm:w-56  min-h-32 min-w-32 rounded-3xl  mb-8 ${rounded && "rounded-full"} ${classNameImage}`} />
         }
 
         {
@@ -44,7 +44,7 @@ useState(
 
         
         </div>
-        {description && <Paragraph text={description} classNameText={"sm:mr-16 sm:ml-16 "} hover={"text-white"}></Paragraph>}
+        {description && <Paragraph text={description} classNameText={classNameText} hover={"text-white"}></Paragraph>}
       </a>
     </div>
   )
