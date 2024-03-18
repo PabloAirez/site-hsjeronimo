@@ -30,9 +30,9 @@ const Historia = () => {
     <Paragraph classNameText={"mt-5 mb-0"} text={"A instituição foi entregue oficialmente à Congregação em 1964, que, através da Sociedade Educação e Caridade (SEC), que manteve a administração do Hospital até 15 de dezembro de 2009. A partir desta data, a AFPERGS - Associação dos Funcionários Públicos do Estado do Rio Grande do Sul, assumiu a entidade mantenedora do Hospital."}></Paragraph>
     <Paragraph classNameText={"mt-5 mb-16"} text={"Atualmente, o HRSJ tem suas atividades baseadas em princípios éticos e tem for finalidade atender o paciente em todas as suas necessidades físicas, psicológicas ou espirituals, quer sejam preventivas ou curativas."}></Paragraph>
     <div className='flex flex-row justify-around flex-wrap'>
-      <Card classNameCard={"border-solid border-2 border-black/10 rounded-full shadow-2xl bg-white mr-2 mb-10"}  title={"Missão:"} description={"Proporcionar assistência à saúde, qualificada e humanizada."}  classNameText={"sm:mr-10 sm:ml-10  "}></Card>
-      <Card classNameCard={"border-solid border-2 border-black/10 rounded-full shadow-2xl bg-white mr-2 mb-10"}  title={"Visão:"} description={"Ser referência do Sistema Único de Saúde na Região Metropolitana do Rio Grande do Sul, até 2020."}  classNameText={"sm:mr-10 sm:ml-10  "}></Card>
-      <Card classNameCard={"border-solid border-2 border-black/10 rounded-full shadow-2xl bg-white mr-2 mb-10"}  title={"Valores:"} description={"Humanização, qualidade, ética, credibilidade, sustentabilidade e responsabilidade socioambiental."}  classNameText={"sm:mr-10 sm:ml-10  "}></Card>
+      <Card classNameCard={"border-solid border-2 border-black/10 rounded-full shadow-2xl bg-white mr-2 mb-10"}  title={"Missão:"} description={"Proporcionar assistência à saúde, qualificada e humanizada."}  classNameText={""}></Card>
+      <Card classNameCard={"border-solid border-2 border-black/10 rounded-full shadow-2xl bg-white mr-2 mb-10"}  title={"Visão:"} description={"Ser referência do Sistema Único de Saúde na Região Metropolitana do Rio Grande do Sul, até 2020."}  classNameText={""}></Card>
+      <Card classNameCard={"border-solid border-2 border-black/10 rounded-full shadow-2xl bg-white mr-2 mb-10"}  title={"Valores:"} description={"Humanização, qualidade, ética, credibilidade, sustentabilidade e responsabilidade socioambiental."}  classNameText={""}></Card>
     </div>
 
 
