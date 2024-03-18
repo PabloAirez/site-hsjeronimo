@@ -17,8 +17,8 @@ const Convenios = () => {
     <>
     <Banner title={"Convênios e Planos"} backgroundImage={backgroundImage}></Banner>
     
-      <Carrossel cards={planosSaude} classNameCard={"mt-10 h-1/4"} rounded={true} classNameText={"sm:ml-0 sm:mr-0 sm:w-full text-center p-10"}></Carrossel>
-      <Paragraph classNameText={"text-center"} text={"(Obs.: somente o paciente beneficiado de Afpergs + IPE tem direito à internação de emergência)."}></Paragraph>
+      <Carrossel cards={planosSaude} classNameCard={"mt-10 h-1/4"} rounded={true} classNameText={" sm:ml-0 sm:mr-0 sm:w-full  text-center p-10 "}></Carrossel>
+      <Paragraph classNameText={"text-center mb-16"} text={"(Obs: somente o paciente beneficiado de Afpergs + IPE tem direito à internação de emergência)."}></Paragraph>
       <div className="flex flex-row justify-center flex-wrap">
           {
             convenios.map((convenio)=>(
