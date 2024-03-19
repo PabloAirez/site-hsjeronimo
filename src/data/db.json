@@ -234,6 +234,48 @@
         }
     
      ],
+     "especialidadesCirurgicas" : [
+      {"id":1,
+      "title":"Cirurgia Geral",
+      "icon":"mask",
+      "description": "SUS/Convênios"
+      },
+      {"id":2,
+      "title":"Cirurgia Plástica",
+      "icon":"face",
+      "description": "Particular"
+      },
+      {"id":3,
+      "title":"Exames de Colonoscopia e Endoscopia",
+      "icon":"stomach",
+      "description": "SUS/Convênios/Particular"
+      },
+      {"id":4,
+      "title":"Ginecologia",
+      "icon":"baby",
+      "description": "SUS/Convênios/Particular"
+      },
+      {"id":5,
+      "title":"Oftalmologia",
+      "icon":"glasses",
+      "description": "SUS"
+      },
+      {"id":6,
+      "title":"Traumatologia",
+      "icon":"crutches",
+      "description": "SUS/Convênios/Particular"
+      },
+      {"id":7,
+      "title":"Urologia",
+      "icon":"kidney",
+      "description": "SUS/Convênios/Particular"
+      },
+      {"id":8,
+      "title":"Cirurgia Vascular",
+      "icon":"blood",
+      "description": "SUS"
+      }
+   ],
      "footerItems" : [
         {
           "text":"Trabalhe Conosco",
