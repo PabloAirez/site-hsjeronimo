@@ -22,7 +22,8 @@ export default {
       },
       fontSize:{
         subtitle: "1.50rem"
-      }
+      },
+      
   },
   plugins: [],
 }
