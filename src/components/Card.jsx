@@ -1,5 +1,6 @@
 // Componentes
 import Paragraph from './Paragraph';
+import List from './List';
 import { IconContext } from "react-icons";
 import * as Icons from 'react-icons';
 import IconsData from '../data/IconsData.js'; 
@@ -10,7 +11,7 @@ import { useState } from 'react';
 
 
 
-const Card = ({title, href,  description, image, rounded = false, classNameCard, classNameImage, classNameText, icon}) => {
+const Card = ({title, href,  description, image, rounded = false, hover = true, classNameCard, classNameImage, classNameTitle, classNameText, icon, list}) => {
 /*
 * rounded - Prop que, se for verdadeiro, faz a imagem ser circular
 */
@@ -23,9 +24,9 @@ useState(
 
   return (
 
-    <div className={`w-1/2 lg:w-1/3 flex-none xl:w-1/4 hover:bg-secondaryColor hover:border-solid hover:border-2 hover:border-white duration-100 group ${classNameCard}`}>
+    <div className={`w-1/2 lg:w-1/3 flex-none xl:w-1/4 ${ hover && "hover:bg-secondaryColor hover:border-solid hover:border-2 hover:border-white duration-100 group"} ${classNameCard}`}>
       <a href={href} className='w-full h-full flex flex-col flex-wrap'>
-        {title && <p className=' font-body 2xl:text-xl sm:text-lg text-sm text-primaryColor text-center w-full mb-8  mt-8  group-hover:text-white duration-100 whitespace-nowrap'>{title}</p>
+        {title && <p className={` font-body 2xl:text-xl sm:text-lg text-sm text-primaryColor text-center w-full mb-8  mt-8 ${ hover && "group-hover:text-white duration-100"} whitespace-nowrap ${classNameTitle}`}>{title}</p>
         }
         <div className="flex flex-row justify-center w-full">
         {
@@ -42,9 +43,9 @@ useState(
           
         }
 
-        
         </div>
-        {description && <Paragraph text={description} classNameText={classNameText} hover={"text-white"}></Paragraph>}
+        {description && <Paragraph text={description} classNameText={classNameText} hover={hover && "text-white"}></Paragraph>}
+        {list && <List itens={list}></List> }
       </a>
     </div>
   )

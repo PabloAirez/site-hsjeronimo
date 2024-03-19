@@ -510,6 +510,79 @@
             "src" : "./src/images/particular.jpg"
         }
       }
+    ],
+
+
+    "itensGestante":[
+      {
+        "id":1,
+        "title": "Toalha de banho;"
+      },
+      {
+        "id":2,
+        "title": "Produtos de Higiene pessoal;"
+      },
+      {
+        "id":3,
+        "title": "Roupas confortáveis que facilitem a amamentação;"
+      },
+      {
+        "id":4,
+        "title": "Sutiãs próprios para amamentação;"
+      },
+      {
+        "id":5,
+        "title": "Calcinhas confortáveis e de tamanho maior do que costumava utilizar antes da gravidez;"
+      },
+      {
+        "id":6,
+        "title": "Absorvente próprios para pós-parto;"
+      },
+      {
+        "id":7,
+        "title": "Um par de chinelos confortáveis."
+      }
+    ],
+
+
+    "itensRecemNascidos":[
+      
+      {
+        "id":1,
+        "title": "Toalha de banho;"
+      },
+      {
+        "id":2,
+        "title": "Fraldas (tamanho recém-nascido);"
+      },
+      {
+        "id":3,
+        "title": "Shampoo;"
+      },
+      {
+        "id":4,
+        "title": "Sabonete;"
+      },
+      {
+        "id":5,
+        "title": "4 mudas de roupa para o recém-nascido,conforme estação do ano;"
+      },
+      {
+        "id":6,
+        "title": "Uma manta (de acordo com a estação);"
+      },
+      {
+        "id":7,
+        "title": "Pares de meia;"
+      },
+      {
+        "id":8,
+        "title": "Toalhinhas de boca;"
+      },
+      {
+        "id":9,
+        "title": "Uma escovinha de cabelos bem macia."
+      }
     ]
 
 }
