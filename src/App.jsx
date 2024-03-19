@@ -12,6 +12,7 @@ import Socioambiental from './pages/Socioambiental';
 import TrabalheConosco from './pages/TrabalheConosco';
 import AssistenciaSocial from './pages/AssistenciaSocial';
 import BlocoCirurgico from './pages/BlocoCirurgico';
+import CentroClinico from './pages/CentroClinico';
 //Componentes
 import MenuPrincipal from './components/MenuPrincipal';
 import Footer from './components/Footer';
@@ -42,6 +43,7 @@ function App() {
           {/* Menu Serviços */}
           <Route path="/servicos/assistencia-social" element={<AssistenciaSocial/>}></Route>
           <Route path="/servicos/bloco-cirurgico" element={<BlocoCirurgico/>}></Route>
+          <Route path="/servicos/centro-clinico" element={<CentroClinico/>}></Route>
 
 
       <Route path="/lgpd" element={<LGPD/>}></Route>

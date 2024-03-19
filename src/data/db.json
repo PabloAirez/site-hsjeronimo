@@ -276,6 +276,46 @@
       "description": "SUS"
       }
    ],
+   "especialidadesCentroClinico" : [
+    {"id":1,
+    "title":"Cirurgia Vascular",
+    "icon":"blood"
+    },
+    {"id":2,
+    "title":"Cirurgia Geral",
+    "icon":"mask"
+    },
+    {"id":3,
+    "title":"Fonoaudiologia",
+    "icon":"speak"
+    },
+    {"id":4,
+    "title":"Ginecologia e Obstetrícia",
+    "icon":"baby"
+    },
+    {"id":5,
+    "title":"Oftalmologia",
+    "icon":"glasses"
+    },
+    {"id":6,
+    "title":"Pneumologia",
+    "icon":"lung"
+    },
+    {"id":7,
+    "title":"Proctologia",
+    "icon":"medicineBottle"
+    },
+    {"id":8,
+    "title":"Traumatologia e Ortopedia",
+    "icon":"crutches"
+    },
+    {"id":9,
+    "title":"Urologia",
+    "icon":"kidney"
+    }
+    
+
+ ],
      "footerItems" : [
         {
           "text":"Trabalhe Conosco",
