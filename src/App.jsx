@@ -11,6 +11,7 @@ import Convenios from './pages/Convenios'
 import Socioambiental from './pages/Socioambiental';
 import TrabalheConosco from './pages/TrabalheConosco';
 import AssistenciaSocial from './pages/AssistenciaSocial';
+import BlocoCirurgico from './pages/BlocoCirurgico';
 //Componentes
 import MenuPrincipal from './components/MenuPrincipal';
 import Footer from './components/Footer';
@@ -40,6 +41,7 @@ function App() {
         
           {/* Menu Serviços */}
           <Route path="/servicos/assistencia-social" element={<AssistenciaSocial/>}></Route>
+          <Route path="/servicos/bloco-cirurgico" element={<BlocoCirurgico/>}></Route>
 
 
       <Route path="/lgpd" element={<LGPD/>}></Route>

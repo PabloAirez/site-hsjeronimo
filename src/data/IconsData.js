@@ -11,6 +11,8 @@ import { RiMedicineBottleLine } from "react-icons/ri";
 import { BsLungs } from "react-icons/bs";
 import { FaCrutch } from "react-icons/fa";
 import { GiKidneys } from "react-icons/gi";
+import { GiStomach } from "react-icons/gi";
+
 
 
 
@@ -79,6 +81,10 @@ const IconsData = [
     "title": 'kidney',
     "icon":  GiKidneys
 },
+{
+    "title": "stomach",
+    "icon": GiStomach
+}
 
 
 

@@ -1,5 +1,4 @@
 //Hooks
-import React from 'react'
 import { useFetch } from '../hooks/useFetch'
 //Componentes
 import Banner from './../components/Banner'
