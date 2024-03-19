@@ -11,7 +11,7 @@ const Socioambiental = () => {
   return (
     <>
     <Banner title={"Política Socioambiental"} backgroundImage={backgroundImage}></Banner>
-    <Paragraph classNameText={"ml-20 mb-16 sm:mr-40 mr-10"} classNameTitle={" mt-10 ml-20 mb-10 sm:mr-40 mr-10"} title={"Sustentabilidade como prioridade"} text={"O Hospital Regional de São Jerônimo tem, em sua estratégia, a sustentabilidade ambiental como um dos mais importantes pilares de sustentação, pois entendemos que devemos preservar os recursos naturais cada vez mais escassos e minimizar os impactos ambientais decorrentes de nossas atividades."}></Paragraph>
+    <Paragraph classNameText={"ml-32 mb-16 sm:mr-40 mr-10"} classNameTitle={" mt-10 ml-32 mb-10 sm:mr-40 mr-10"} title={"Sustentabilidade como prioridade"} text={"O Hospital Regional de São Jerônimo tem, em sua estratégia, a sustentabilidade ambiental como um dos mais importantes pilares de sustentação, pois entendemos que devemos preservar os recursos naturais cada vez mais escassos e minimizar os impactos ambientais decorrentes de nossas atividades."}></Paragraph>
     <Accordion title={"Atendimento legal"} text={"Cumprir com os requisitos legais e outros requisitos subscritos pela instituição;"}></Accordion>
     <Accordion title={"Ética Socioambiental"} text={"Criar canais de comunicação aberto junto ao público interno e externo, colaborando com o Desenvolvimento Sustentável;"}></Accordion>
     <Accordion title={"Conscientização Ambiental"} text={"Promover em todos os níveis a conscientização ambiental com foco no senso de responsabilidade individual e o sentido de prevenção com relação ao meio ambiente;"}></Accordion>
