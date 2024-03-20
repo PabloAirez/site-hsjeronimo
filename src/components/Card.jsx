@@ -11,7 +11,7 @@ import { useState } from 'react';
 
 
 
-const Card = ({title, href,  description, image, rounded = false, hover = true, classNameCard, classNameImage, classNameTitle, classNameText, icon, list}) => {
+const Card = ({title, href,  description, image, rounded = false, hover = true, classNameCard, classNameImage, classNameTitle, classNameText, classNameList, icon, list}) => {
 /*
 * rounded - Prop que, se for verdadeiro, faz a imagem ser circular
 */
@@ -45,7 +45,7 @@ useState(
 
         </div>
         {description && <Paragraph text={description} classNameText={classNameText} hover={hover && "text-white"}></Paragraph>}
-        {list && <List itens={list}></List> }
+        {list && <List classNameItens={classNameList} itens={list}></List> }
       </a>
     </div>
   )

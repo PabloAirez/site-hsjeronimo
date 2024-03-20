@@ -14,6 +14,8 @@ import AssistenciaSocial from './pages/AssistenciaSocial';
 import BlocoCirurgico from './pages/BlocoCirurgico';
 import CentroClinico from './pages/CentroClinico';
 import Maternidade from './pages/Maternidade';
+import Internacao from './pages/Internacao';
+
 //Componentes
 import MenuPrincipal from './components/MenuPrincipal';
 import Footer from './components/Footer';
@@ -42,10 +44,11 @@ function App() {
               {/* Rota do trabalhe conosco está na sessão do rodapé */}
         
           {/* Menu Serviços */}
-          <Route path="/servicos/assistencia-social" element={<AssistenciaSocial/>}></Route>
-          <Route path="/servicos/bloco-cirurgico" element={<BlocoCirurgico/>}></Route>
-          <Route path="/servicos/centro-clinico" element={<CentroClinico/>}></Route>
-          <Route path="/servicos/maternidade" element={<Maternidade/>}></Route>
+              <Route path="/servicos/assistencia-social" element={<AssistenciaSocial/>}></Route>
+              <Route path="/servicos/bloco-cirurgico" element={<BlocoCirurgico/>}></Route>
+              <Route path="/servicos/centro-clinico" element={<CentroClinico/>}></Route>
+              <Route path="/servicos/maternidade" element={<Maternidade/>}></Route>
+              <Route path="/servicos/internacao" element={<Internacao/>}></Route>
 
 
       <Route path="/lgpd" element={<LGPD/>}></Route>

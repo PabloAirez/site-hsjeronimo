@@ -29,8 +29,8 @@ const Maternidade = () => {
     <Paragraph classNameText={"sm:ml-32 ml-10 mt-10"} text={"Restante dos familiares devem aguardar no saguão do hospital."}></Paragraph>
     <Paragraph classNameTitle={"mt-16 mb-10 text-center text-bold"} title={"O que trazer para o parto?"}></Paragraph>
     <div className="flex flex-row justify-center">
-      <Card  title={"Gestante"} image={imagemGestante} rounded={true} hover={false} list={itensGestante} classNameCard={"lg:mr-20 sm:mr-5 mr-1 bg-white shadow-2xl p-5 border-solid border-2 border-black/10 sm:rounded-xl"} classNameTitle={"font-bold"}></Card>
-      <Card image={imagemBebe} rounded={true} hover={false} title={"Recém-nascido"} list={itensRecemNascidos} classNameCard={"bg-white shadow-2xl p-5 border-solid border-2 border-black/10 sm:rounded-xl"} classNameTitle={"font-bold"} ></Card>
+      <Card  title={"Gestante"} image={imagemGestante} rounded={true} hover={false} classNameList={"mb-8 mt-0 sm:ml-20 ml-5"} list={itensGestante} classNameCard={"lg:mr-20 sm:mr-5 mr-1 bg-white shadow-2xl p-5 border-solid border-2 border-black/10 sm:rounded-xl"} classNameTitle={"font-bold"}></Card>
+      <Card image={imagemBebe} rounded={true} hover={false} title={"Recém-nascido"} classNameList={"mb-8 mt-0 sm:ml-20 ml-5"} list={itensRecemNascidos} classNameCard={"bg-white shadow-2xl p-5 border-solid border-2 border-black/10 sm:rounded-xl"} classNameTitle={"font-bold"} ></Card>
     </div>
     <div className="flex flex-row mt-20 justify-center">
       <Paragraph  text={"Para mais informações sobre a pediatria e cuidados com o recém nascido, "}></Paragraph> <Link to="/servicos/pediatria"> <Paragraph classNameText={"ml-1 underline"} text={"clique aqui"}></Paragraph></Link>
