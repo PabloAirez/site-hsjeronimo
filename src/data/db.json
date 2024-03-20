@@ -627,6 +627,40 @@
       "icon":"computer"
       }
   
+   ],
+
+   "classificacoes":[
+    {
+      "id": 1,
+      "color": "red-600",
+      "title": "VERMELHO - EMERGÊNCIA",
+      "description": ": Atendimento imediato."
+    },
+    {
+      "id": 2,
+      "color": "orange-700",
+      "title": "LARANJA - MUITO URGENTE",
+      "description": ": Paciente necessita atendimento o mais breve possível. TEMPO DE ESTIMADO ESPERA 10 MIN."
+    },
+    {
+      "id": 3,
+      "color": "yellow-500",
+      "title": "AMARELO - URGENTE",
+      "description": ": Paciente precisa avaliação médica não considerada uma emergência já que paciente possui condições clÍnicas para aguardar. TEMPO ESTIMADO DE ESPERA 60min."
+    },
+    {
+      "id": 4,
+      "color": "green-600",
+      "title": "VERDE - POUCO URGENTE",
+      "description": ": Menos grave necessita atendimento médico, mas pode ser assistido no consultorio médico ambulatorialmente. TEMPO ESTIMADO DE ESPERA 120 min."
+    },
+    {
+      "id": 5,
+      "color": "blue-600",
+      "title": "AZUL - NÃO URGENTE",
+      "description": ": É o caso de menor complexidade e sem problemas recentes ambulatorialmente. TEMPO ESTIMADO DE ESPERA 240 min."
+    }
+
    ]
 
 }

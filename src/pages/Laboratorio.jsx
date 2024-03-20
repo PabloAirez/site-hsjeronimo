@@ -19,7 +19,7 @@ const Laboratorio = () => {
     <Paragraph classNameText={"sm:ml-32 ml-10 sm:mr-40 mr-10 mb-3 mt-5"} text={"O Laboratório de Análises Clínicas do Hospital Regional de São Jerônimo possui o que há de mais moderno no seguimento de diagnóstios laboratoriais no atendimento ambulatorial hospitalar, voltados à rede pública e privada."}></Paragraph>
     <Paragraph classNameText={"sm:ml-32 ml-10 sm:mr-40 mr-10 mb-3 mt-5"} text={"Nossa equipe conta com profissionais técnicos especializados e preparados para proporcionar aos clientes um atendimento diferenciado, ágil e de qualidade, atuando 24h por dia, 7 dias da semana, garantindo a qualificação de excelência no Programa Nacional de Controle de Qualidade (PNCQ)."}></Paragraph>
     <Image image={imgPncq}></Image>
-    <Paragraph classNameTitle={"sm:ml-32 ml-10 mt-10 "} title={"Alguns diferenciais do Laboratorio de Análises Clínicas:"}></Paragraph>
+    <Paragraph classNameTitle={"sm:ml-32 ml-10 mt-10 sm:mr-40 mr-10 "} title={"Alguns diferenciais do Laboratorio de Análises Clínicas:"}></Paragraph>
     <List itens={diferenciaisLaboratorio} classNameItens={"sm:ml-32 mt-10 ml-10"}></List>
     <Paragraph classNameText={"sm:ml-32 ml-10 sm:mr-40 mr-10 mb-3 mt-5"} text={"O Laboratório de Análises Clínicas conta com mais uma facilidade, agora você pode agendar os seu exames pelo WhatsApp."}></Paragraph>
     <Paragraph classNameText={"sm:ml-32 ml-10 sm:mr-40 mr-10 mb-3 mt-5"} text={"O horário de atendimento externo é de segunda a sexta-feira, das 7h às 16h."}></Paragraph>
