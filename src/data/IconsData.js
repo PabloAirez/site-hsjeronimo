@@ -12,6 +12,11 @@ import { BsLungs } from "react-icons/bs";
 import { FaCrutch } from "react-icons/fa";
 import { GiKidneys } from "react-icons/gi";
 import { GiStomach } from "react-icons/gi";
+import { GiTestTubes } from "react-icons/gi";
+import { IoTime } from "react-icons/io5";
+import { BiAtom } from "react-icons/bi";
+import { RiComputerLine } from "react-icons/ri";
+
 
 
 
@@ -84,7 +89,23 @@ const IconsData = [
 {
     "title": "stomach",
     "icon": GiStomach
-}
+},
+{
+    "title": "testTubes",
+    "icon": GiTestTubes
+},
+{
+    "title": "time",
+    "icon": IoTime
+},
+{
+    "title": "atom",
+    "icon": BiAtom
+},
+{
+    "title": "computer",
+    "icon": RiComputerLine
+},
 
 
 

@@ -607,6 +607,26 @@
         "id":5,
         "title": "RG e CPF do responsável."
       }
-    ]
+    ],
+
+    "diferenciaisLaboratorio" : [
+      {"id":1,
+      "title":"Possui Automações Quimica seca (Orthoclinical) - Maior precisão dos resultados, agilidade e sem reagentes líquidos, gerando baixo impacto ambiental;",
+      "icon": "testTubes"
+      },
+      {"id":2,
+      "title":"Agilidade na liberação dos resultados;",
+      "icon":"time"
+      },
+      {"id":3,
+      "title":"Único laboratório da Região Carbonífera a oferecer o serviço de Gasometria;",
+      "icon":"atom"
+      },
+      {"id":4,
+      "title":"Resultado via internet.",
+      "icon":"computer"
+      }
+  
+   ]
 
 }

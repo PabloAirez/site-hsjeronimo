@@ -15,6 +15,8 @@ import BlocoCirurgico from './pages/BlocoCirurgico';
 import CentroClinico from './pages/CentroClinico';
 import Maternidade from './pages/Maternidade';
 import Internacao from './pages/Internacao';
+import Laboratorio from './pages/Laboratorio';
+
 
 //Componentes
 import MenuPrincipal from './components/MenuPrincipal';
@@ -49,6 +51,7 @@ function App() {
               <Route path="/servicos/centro-clinico" element={<CentroClinico/>}></Route>
               <Route path="/servicos/maternidade" element={<Maternidade/>}></Route>
               <Route path="/servicos/internacao" element={<Internacao/>}></Route>
+              <Route path="/servicos/laboratorio" element={<Laboratorio/>}></Route>
 
 
       <Route path="/lgpd" element={<LGPD/>}></Route>
