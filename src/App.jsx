@@ -18,6 +18,7 @@ import Internacao from './pages/Internacao';
 import Laboratorio from './pages/Laboratorio';
 import Emergencia from './pages/Emergencia';
 import Pediatria from './pages/Pediatria';
+import Psicologia from './pages/Psicologia';
 
 
 //Componentes
@@ -56,6 +57,7 @@ function App() {
               <Route path="/servicos/laboratorio" element={<Laboratorio/>}></Route>
               <Route path="/servicos/emergencia" element={<Emergencia/>}></Route>
               <Route path="/servicos/pediatria" element={<Pediatria/>}></Route>
+              <Route path="/servicos/psicologia" element={<Psicologia/>}></Route>
 
 
       <Route path="/lgpd" element={<LGPD/>}></Route>
