@@ -764,6 +764,63 @@
       "title":"cterícia (Amarelão) de pele e olhos, que desce além do pescoço."
     }
 
+   ],
+
+   "parcerias" : [
+    {
+      "id" : 1,
+      "image": {
+          "alt": "Ulbra",
+          "src" : "./src/images/ulbra.jpg"
+      },  
+      "href": "https://www.ulbra.br/sao-jeronimo", 
+      "description": "Parceria realizada desde 2020. Proporcionando oportunidades de estágio"
+    },
+    {
+      "id" : 2,
+      "image": {
+        "alt": "Uniasselvi",
+        "src" : "./src/images/uniasselvi.png"
+      },
+      "href": "https://portal.uniasselvi.com.br/", 
+      "description": "Parceria realizada desde 2019. Proporcionando oportunidades de estágio."
+    },
+    {
+      "id" : 3,
+      "image": {
+        "alt": "IFSUL",
+        "src" : "./src/images/ifsul.png"
+      },
+      "href": "http://www.charqueadas.ifsul.edu.br/", 
+      "description": "Parceria realizada desde 2022. Tem como fim o desenvolvimento de sistemas tecnológicos próprios do hospital."
+    },
+    {
+      "id" : 4,
+      "image": {
+        "alt": "Sidi",
+        "src" : "./src/images/sidi.png"
+      },
+      "href": "https://www.sidiltda.com.br/", 
+      "description": "Parceria realizada desde 2010. Radiologia, raio X, eco, tomo e mamo. Diagnóstico por imagem e alta definição em diagnóstico. Pacientes conveniados de qualquer natureza, inclusive SUS."
+    },
+    {
+      "id" : 4,
+      "image": {
+        "alt": "Imavida",
+        "src" : "./src/images/imavida.png"
+      },
+      "href": "https://www.sidiltda.com.br/", 
+      "description": "Parceria realizada desde 2010. Radiologia, raio X, eco, tomo e mamo. Diagnóstico por imagem e alta definição em diagnóstico. Pacientes conveniados de qualquer natureza, inclusive SUS."
+    },
+    {
+      "id" : 5,
+      "image":{
+        "alt": "Wrague Med",
+        "src" : "./src/images/wrague.png" 
+      },
+      "href": "https://www.wraguemed.com.br/", 
+      "description": "Parceria clínica"
+    }
    ]
   }
    
