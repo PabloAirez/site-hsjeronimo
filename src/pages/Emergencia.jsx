@@ -2,8 +2,6 @@
 import Banner from './../components/Banner';
 import Paragraph from './../components/Paragraph';
 import Classification from '../components/Classification';
-import Image from './../components/Image';
-import List from '../components/List';
 
 //images
 import backgroundImage from './../images/bannerEmergencia.jpg';

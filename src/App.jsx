@@ -17,6 +17,7 @@ import Maternidade from './pages/Maternidade';
 import Internacao from './pages/Internacao';
 import Laboratorio from './pages/Laboratorio';
 import Emergencia from './pages/Emergencia';
+import Pediatria from './pages/Pediatria';
 
 
 //Componentes
@@ -54,6 +55,7 @@ function App() {
               <Route path="/servicos/internacao" element={<Internacao/>}></Route>
               <Route path="/servicos/laboratorio" element={<Laboratorio/>}></Route>
               <Route path="/servicos/emergencia" element={<Emergencia/>}></Route>
+              <Route path="/servicos/pediatria" element={<Pediatria/>}></Route>
 
 
       <Route path="/lgpd" element={<LGPD/>}></Route>

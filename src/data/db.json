@@ -661,6 +661,109 @@
       "description": " É o caso de menor complexidade e sem problemas recentes ambulatorialmente. TEMPO ESTIMADO DE ESPERA 240 min."
     }
 
-   ]
+   ],
 
-}
+   "cuidadosRecemNascido":[
+    {"id": 1,
+    "title": "Consulta com pediatra ou neonatologista",
+    "list": [
+              {"id": 1,
+               "title": "Agendar consulta entre 5 a 7 dias de vida do Recém-Nascido (levar todos os impressos disponibilizados na alta, tanto da mãe quanto do bebê)."
+              }
+            ]
+    },
+    {"id": 2,
+    "title": "Amamentação",
+    "list": [
+              {"id": 1,
+               "title": "O leite materno contém todos os nutrientes necessários ao recém-nascido e é de fácil digestão e absorção. Não sendo necessário ofertar nenhum tipo de alimento extra como chás e sucos ou água"
+              },
+              {"id": 2,
+               "title": "Nos primeiros dias de vida o bebê vai mamar muitas vezes seguidas e por pouco tempo, é importante não deixar o bebê mais de 3 horas sem mamar durante as primeiras semanas, o bebê tem muito poucas reservas e longo tempo sem mamar pode causar desnutrição, desidratação ou hipoglicemia"
+              },
+              {"id": 3,
+               "title": "Lembre-se: Toda mãe tem leite suficiente, independentemente do tamanho dos seios, basta ter paciência e insistir na amamentação. Não existe leite fraco, deixe o bebê mamar à vontade, pois a quantidade de leite aumenta quanto mais o bebê mama."
+              }
+
+            ]
+    }, 
+    {"id": 3,
+    "title": "Sono",
+    "list": [
+              {"id": 1,
+               "title": "Dormir de barriga para cima é mais seguro. É a posição mais segura para a prevenção de morte súbita. Retire também travesseiros, bichinhos de pelúcia e quaisquer outros itens que possam obstruir a respiração do pequeno."
+              }
+            ]
+    },
+    {"id": 4,
+    "title": "Hábito intestinal e Diurese",
+    "list": [
+              {"id": 1,
+               "title": "Observe a Urina do seu Bebê. O Recém-Nascido que está mamando bem e se mantendo hidratado, deve urinar em média 6 fraldas ao longo de 24 horas. Se o bebê passar grande número de horas sem urinar, pode ser sinal de desidratação. ntensiÈque a frequência das mamadas e procure avaliação médica"
+              },
+              {"id": 2,
+               "title": "Observe também as fezes do bebê. Elas vão mudando de consistência nos primeiros dias de vida. Saem da textura graxa e passam a textura mais fluida. Jamais podem ser brancas!!"
+              }
+            ]
+    },
+    {"id": 5,
+    "title": "O banho",
+    "list": [
+              {"id": 1,
+               "title": "Antes de retirar a roupa do bebê, arrume todo o ambiente, coloque tudo o que vai utilizar por perto e elimine qualquer corrente de ar. É importante deixar a água em temperatura agradável, que pode ser testada com o cotovelo. Utilize sabonete neutro e evite colônias, óleos e talcos, pois eles podem dar alergia ou irritar a pele do bebê."
+              }
+            ]
+    },
+    {"id": 6,
+    "title": "Coto Umbilical",
+    "list": [
+              {"id": 1,
+               "title": "Mantenha-o sempre limpo e seco, principalmente em sua base, usando regularmente um cotonete com álcool 70% e deixando-o exposto. Não tenha medo de mexer no coto umbilical, ele não dói."
+              }
+            ]
+    },
+    {"id": 7,
+    "title": "Troca de Fraldas",
+    "list": [
+              {"id": 1,
+               "title": "Em todas as trocas de fralda, utilize sempre água morna para limpar ou lavar. Sempre limpe em sentido único, de cima para baixo, para evitar a contaminação."
+              }
+            ]
+    },
+    {"id": 8,
+    "title": "Teste do pezinho",
+    "list": [
+              {"id": 1,
+               "title": "Entre o 3° e 5° dia de vida, é realizado o teste do pezinho. Esse exame diagnostica precocemente diversas doenças, permitindo o tratamento adequado para o desenvolvimento normal do bebê."
+              }
+            ]
+    },
+    {"id": 9,
+    "title": "Prevenção de infecções",
+    "list": [
+              {"id": 1,
+               "title": "É importante sempre lavar bem as mãos quando for pegar ou tocar o recém- nascido ou utilizar álcool gel, pois eles ainda não possuem todos os anticorpos desenvolvidos. Recomenda-se também evitar locais fechados, aglomerações e contato com pessoas doentes"
+              },
+              {"id": 2,
+               "title": "Não beijar as mãozinhas ou a boca do bebê; evite fumar em casa ou qualquer lugar perto do bebê."
+              }
+            ]
+    }
+   ],
+   "cuidadosEmergenciaisBebe":[
+    {
+    "id": 1,
+    "title":"Alteração do estado geral: pouco ativo, sonolência persistente ou irritabilidade intensa, choro fraco. Temperatura maior que 37,5 C, ou menor de 35°C"
+    },
+    {
+      "id": 2,
+      "title":"Recusa da mamada frequente, sucção fraca ou presença de vômitos frequentes, longos períodos de tempo sem urinar ou Mudança no padrão respiratório."
+    },
+    {
+      "id": 3,
+      "title":"Recusa da mamada frequente, sucção fraca ou presença de vômitos frequentes, longos períodos de tempo sem urinar ou Mudança no padrão respiratório."
+    }
+
+   ]
+  }
+   
