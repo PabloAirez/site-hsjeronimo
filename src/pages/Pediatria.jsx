@@ -7,14 +7,14 @@ import Carrossel from '../components/Carrossel';
 import List from '../components/List';
 
 //images
-import backgroundImage from './../images/bannerMaternidade.jpg';
+import backgroundImage from './../images/bannerPediatria.jpg';
 const Pediatria = () => {
   const {data : cuidadosRecemNascido} = useFetch("cuidadosRecemNascido");
   const {data : cuidadosEmergenciaisBebe} = useFetch("cuidadosEmergenciaisBebe");
 
   return (
     <>
-    <Banner title={"Pediatria"}></Banner>
+    <Banner backgroundImage={backgroundImage} title={"Pediatria"}></Banner>
     <Paragraph classNameText={"sm:ml-32 ml-10 mt-10 sm:mr-40 mr-10"} text="Atendimento de Urgência/Emergência 24hrs"></Paragraph>
     <Paragraph classNameText={"sm:ml-32 ml-10 mt-10 sm:mr-40 mr-10"} text="Atende SUS/Convênios/Particular"></Paragraph>
     <Paragraph classNameTitle={"sm:ml-32 ml-10 mt-10 sm:mr-40 mr-10 text-center"} title="Orientações para cuidados com o Recém Nascido"></Paragraph>
