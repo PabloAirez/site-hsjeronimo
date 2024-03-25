@@ -7,6 +7,7 @@ import Home from './pages/Home'
 import Especialidades from './pages/Especialidades';
 import Historia from './pages/Historia'
 import LGPD from './pages/LGPD'
+import Estrutura from './pages/Estrutura';
 import Convenios from './pages/Convenios'
 import Socioambiental from './pages/Socioambiental';
 import TrabalheConosco from './pages/TrabalheConosco';
@@ -20,13 +21,13 @@ import Emergencia from './pages/Emergencia';
 import Pediatria from './pages/Pediatria';
 import Psicologia from './pages/Psicologia';
 import Parcerias from './pages/Parcerias';
+import NoticiasHome from './pages/NoticiasHome';
 
 
 //Componentes
 import MenuPrincipal from './components/MenuPrincipal';
 import Footer from './components/Footer';
 
-import Estrutura from './pages/Estrutura';
 
 
 
@@ -61,12 +62,14 @@ function App() {
               <Route path="/servicos/psicologia" element={<Psicologia/>}></Route>
 
 
+      <Route path="/noticias" element={<NoticiasHome/>}></Route>
       <Route path="/parcerias" element={<Parcerias/>}></Route>
       <Route path="/lgpd" element={<LGPD/>}></Route>
 
       {/* Rodapé */}
       <Route path='/socioambiental' element={<Socioambiental/>}></Route>
       <Route path='/trabalhe-conosco' element={<TrabalheConosco/>}></Route>
+      
 
 
     </Routes>
