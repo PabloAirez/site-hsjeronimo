@@ -10,6 +10,7 @@ import List from '../components/List';
 import backgroundImage from './../images/bannerParcerias.jpg';
 const Parcerias = () => {
   const {data : parcerias} = useFetch("parcerias");
+  const imagemBebe = {"src": imgRecemNascido, "alt": "Recém-nascido"};
 
   return (
     <>

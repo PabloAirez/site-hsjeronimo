@@ -1,11 +1,8 @@
 //hooks
 import { useFetch } from '../hooks/useFetch'
-import { useState } from 'react'
 //components
 import Banner from '../components/Banner'
 import Paragraph from '../components/Paragraph'
-import Image from '../components/Image'
-import CardText from '../components/CardText'
 import Card from '../components/Card'
 //images
 import backgroundImage from './../images/hospital.jpg'

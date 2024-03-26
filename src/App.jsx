@@ -22,6 +22,7 @@ import Pediatria from './pages/Pediatria';
 import Psicologia from './pages/Psicologia';
 import Parcerias from './pages/Parcerias';
 import NoticiasHome from './pages/NoticiasHome';
+import PaginaNoticia from './pages/PaginaNoticia';
 
 
 //Componentes
@@ -63,6 +64,7 @@ function App() {
 
 
       <Route path="/noticias" element={<NoticiasHome/>}></Route>
+      <Route path="/noticias/:title/:id" element={<PaginaNoticia/>}></Route>
       <Route path="/parcerias" element={<Parcerias/>}></Route>
       <Route path="/lgpd" element={<LGPD/>}></Route>
 

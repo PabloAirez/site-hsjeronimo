@@ -821,6 +821,140 @@
       "href": "https://www.wraguemed.com.br/", 
       "description": "Parceria realizada desde 2018. Possuímos parceria com nosso laboratório e nosso eletrocardiograma. Contamos com um posto de coleta avançado do Laboratório de análises clínicas na Clínica WragueMed, com o objetivo de proporcionar mais agilidade e conforto aos pacientes."
     }
+   ],
+
+   "noticias":[
+      {
+        "id": 1,
+        "date": "26/03/2024",
+        "title": "Este é o título da notícia 1",
+        "description": "Esta é a descrição da notícia",
+        "content": "Aqui vai ficar todo o conteúdo da página 1 descrito",
+        "image":{
+          "alt":"Imagem vazia",
+          "src": "./src/images/empty.png"
+        }
+      },
+      {
+        "id": 2,
+        "date": "26/03/2024",
+        "title": "Este é o título da notícia 2",
+        "description": "Esta é a descrição da notícia",
+        "content": "Aqui vai ficar todo o conteúdo da página 2 descrito",
+        "image":{
+          "alt":"Imagem vazia",
+          "src": "./src/images/empty.png"
+        }
+      },
+      {
+        "id": 3,
+        "date": "26/03/2024",
+        "title": "Este é o título da notícia 3",
+        "description": "Esta é a descrição da notícia",
+        "content": "Aqui vai ficar todo o conteúdo da página 3 descrito",
+        "image":{
+          "alt":"Imagem vazia",
+          "src": "./src/images/empty.png"
+        }
+      },
+      {
+        "id": 4,
+        "date": "26/03/2024",
+        "title": "Este é o título da notícia 4",
+        "description": "Esta é a descrição da notícia",
+        "content": "Aqui vai ficar todo o conteúdo da página 4 descrito",
+        "image":{
+          "alt":"Imagem vazia",
+          "src": "./src/images/empty.png"
+        }
+      },
+      {
+        "id": 5,
+        "date": "26/03/2024",
+        "title": "Este é o título da notícia 5",
+        "description": "Esta é a descrição da notícia",
+        "content": "Aqui vai ficar todo o conteúdo da página 5 descrito",
+        "image":{
+          "alt":"Imagem vazia",
+          "src": "./src/images/empty.png"
+        }
+      },
+      {
+        "id": 6,
+        "date": "26/03/2024",
+        "title": "Este é o título da notícia 6",
+        "description": "Esta é a descrição da notícia",
+        "content": "Aqui vai ficar todo o conteúdo da página 6 descrito",
+        "image":{
+          "alt":"Imagem vazia",
+          "src": "./src/images/empty.png"
+        }
+      },
+      {
+        "id": 7,
+        "date": "26/03/2024",
+        "title": "Este é o título da notícia 7",
+        "description": "Esta é a descrição da notícia",
+        "content": "Aqui vai ficar todo o conteúdo da página 7 descrito",
+        "image":{
+          "alt":"Imagem vazia",
+          "src": "./src/images/empty.png"
+        }
+      },
+      {
+        "id": 8,
+        "date": "26/03/2024",
+        "title": "Este é o título da notícia 8",
+        "description": "Esta é a descrição da notícia",
+        "content": "Aqui vai ficar todo o conteúdo da página 8 descrito",
+        "image":{
+          "alt":"Imagem vazia",
+          "src": "./src/images/empty.png"
+        }
+      },
+      {
+        "id": 9,
+        "date": "26/03/2024",
+        "title": "Este é o título da notícia 9",
+        "description": "Esta é a descrição da notícia",
+        "content": "Aqui vai ficar todo o conteúdo da página 9 descrito",
+        "image":{
+          "alt":"Imagem vazia",
+          "src": "./src/images/empty.png"
+        }
+      },
+      {
+        "id": 10,
+        "date": "26/03/2024",
+        "title": "Este é o título da notícia 10",
+        "description": "Esta é a descrição da notícia",
+        "content": "Aqui vai ficar todo o conteúdo da página 10 descrito",
+        "image":{
+          "alt":"Imagem vazia",
+          "src": "./src/images/empty.png"
+        }
+      },
+      {
+        "id":11,
+        "date": "26/03/2024",
+        "user": 1, 
+        "title": "Este é o título da notícia 11",
+        "subtitle": "Este é o subtítulo da página",
+        "description": "Esta é a descrição da notícia",
+        "content": "Aqui vai ficar todo o conteúdo da página 11 descrito",
+        "image":{
+          "alt":"Imagem vazia",
+          "src": "./src/images/empty.png"
+        }
+      }
+
+   ],
+
+   "usuarios":[
+    {
+      "id":1,
+      "name": "Pablo Aires dos Santos"
+    }
    ]
   }
    

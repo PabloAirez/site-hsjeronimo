@@ -1,7 +1,6 @@
 import React from 'react'
 
 const Image = ({image, classNameImage}) => {
-
   return (
     <div className=" flex flex-row justify-center" >
     {
