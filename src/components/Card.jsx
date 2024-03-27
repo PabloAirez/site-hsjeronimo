@@ -2,7 +2,6 @@
 import Paragraph from './Paragraph';
 import List from './List';
 import { IconContext } from "react-icons";
-import * as Icons from 'react-icons';
 import IconsData from '../data/IconsData.js'; 
 // Hooks
 import { useState } from 'react';

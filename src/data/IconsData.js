@@ -16,6 +16,8 @@ import { GiTestTubes } from "react-icons/gi";
 import { IoTime } from "react-icons/io5";
 import { BiAtom } from "react-icons/bi";
 import { RiComputerLine } from "react-icons/ri";
+import { ImFacebook2 } from "react-icons/im";
+import { IoLogoWhatsapp } from "react-icons/io";
 
 
 
@@ -105,6 +107,14 @@ const IconsData = [
 {
     "title": "computer",
     "icon": RiComputerLine
+},
+{
+    "title": "facebook",
+    "icon": ImFacebook2
+},
+{
+    "title": "whatsapp",
+    "icon": IoLogoWhatsapp
 },
 
 

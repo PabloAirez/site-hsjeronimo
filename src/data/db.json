@@ -827,111 +827,131 @@
       {
         "id": 1,
         "date": "26/03/2024",
+        "user": 1, 
         "title": "Este é o título da notícia 1",
+        "subtitle": "Este é o subtítulo da página",
         "description": "Esta é a descrição da notícia",
-        "content": "Aqui vai ficar todo o conteúdo da página 1 descrito",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales nulla nisi, sit amet iaculis nisl consectetur in. Nam porttitor est ac purus euismod mollis. Maecenas nec urna sit amet mi luctus tempor. Vivamus ut orci id libero imperdiet luctus. Cras laoreet fringilla sodales. Etiam vel libero sem. Morbi sapien enim, tincidunt non dui id, porttitor tincidunt sem. Maecenas enim ipsum, consectetur et euismod mattis, congue vitae ante. Nulla scelerisque urna a sodales varius. Duis hendrerit lacus vel ipsum varius, in eleifend dolor feugiat. Morbi a bibendum lacus, quis pulvinar metus. Phasellus sed elit velit. Morbi vitae turpis vel lacus lobortis ullamcorper in convallis justo. Duis a bibendum leo, nec hendrerit nunc. Vivamus auctor imperdiet orci ut malesuada. Integer interdum suscipit tellus, et bibendum quam finibus eget. Duis nec magna ut dui commodo sagittis nec nec dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi quis ante a odio bibendum lacinia. Phasellus eget libero accumsan, lacinia nunc id, posuere ligula. Nam hendrerit, diam nec interdum vulputate, magna dui pellentesque massa, nec efficitur elit ipsum eu augue. Fusce efficitur tellus eu eros lobortis, hendrerit consequat eros aliquam. Sed varius pulvinar dapibus. Ut in quam sodales, mollis neque vitae, consequat lorem. Curabitur ac magna eu libero feugiat venenatis ac eu massa. Phasellus mauris erat, pretium porttitor ex sit amet, iaculis iaculis lacus. Nunc quis tellus lorem. Sed feugiat, augue eu convallis pretium, erat velit fringilla ante, a ullamcorper est magna nec neque. Curabitur semper enim et congue porttitor. Cras id scelerisque purus. Ut maximus pretium porta. Pellentesque vitae odio feugiat augue fringilla bibendum. Vestibulum sed elit ultricies, tempus neque sit amet, condimentum ipsum. Curabitur eu magna est.",
         "image":{
           "alt":"Imagem vazia",
-          "src": "./src/images/empty.png"
+          "src": "../../src/images/empty.png"
         }
       },
       {
         "id": 2,
         "date": "26/03/2024",
+        "user": 1, 
         "title": "Este é o título da notícia 2",
+        "subtitle": "Este é o subtítulo da página",
         "description": "Esta é a descrição da notícia",
         "content": "Aqui vai ficar todo o conteúdo da página 2 descrito",
         "image":{
           "alt":"Imagem vazia",
-          "src": "./src/images/empty.png"
+          "src": "../../src/images/empty.png"
         }
       },
       {
         "id": 3,
         "date": "26/03/2024",
+        "user": 1, 
         "title": "Este é o título da notícia 3",
+        "subtitle": "Este é o subtítulo da página",
         "description": "Esta é a descrição da notícia",
         "content": "Aqui vai ficar todo o conteúdo da página 3 descrito",
         "image":{
           "alt":"Imagem vazia",
-          "src": "./src/images/empty.png"
+          "src": "../../src/images/empty.png"
         }
       },
       {
         "id": 4,
         "date": "26/03/2024",
+        "user": 1, 
         "title": "Este é o título da notícia 4",
+        "subtitle": "Este é o subtítulo da página",
         "description": "Esta é a descrição da notícia",
         "content": "Aqui vai ficar todo o conteúdo da página 4 descrito",
         "image":{
           "alt":"Imagem vazia",
-          "src": "./src/images/empty.png"
+          "src": "../../src/images/empty.png"
         }
       },
       {
         "id": 5,
         "date": "26/03/2024",
+        "user": 1, 
         "title": "Este é o título da notícia 5",
+        "subtitle": "Este é o subtítulo da página",
         "description": "Esta é a descrição da notícia",
         "content": "Aqui vai ficar todo o conteúdo da página 5 descrito",
         "image":{
           "alt":"Imagem vazia",
-          "src": "./src/images/empty.png"
+          "src": "../../src/images/empty.png"
         }
       },
       {
         "id": 6,
         "date": "26/03/2024",
+        "user": 1, 
         "title": "Este é o título da notícia 6",
+        "subtitle": "Este é o subtítulo da página",
         "description": "Esta é a descrição da notícia",
         "content": "Aqui vai ficar todo o conteúdo da página 6 descrito",
         "image":{
           "alt":"Imagem vazia",
-          "src": "./src/images/empty.png"
+          "src": "../../src/images/empty.png"
         }
       },
       {
         "id": 7,
         "date": "26/03/2024",
+        "user": 1, 
         "title": "Este é o título da notícia 7",
+        "subtitle": "Este é o subtítulo da página",
         "description": "Esta é a descrição da notícia",
         "content": "Aqui vai ficar todo o conteúdo da página 7 descrito",
         "image":{
           "alt":"Imagem vazia",
-          "src": "./src/images/empty.png"
+          "src": "../../src/images/empty.png"
         }
       },
       {
         "id": 8,
         "date": "26/03/2024",
+        "user": 1, 
         "title": "Este é o título da notícia 8",
+        "subtitle": "Este é o subtítulo da página",
         "description": "Esta é a descrição da notícia",
         "content": "Aqui vai ficar todo o conteúdo da página 8 descrito",
         "image":{
           "alt":"Imagem vazia",
-          "src": "./src/images/empty.png"
+          "src": "../../src/images/empty.png"
         }
       },
       {
         "id": 9,
         "date": "26/03/2024",
+        "user": 1, 
         "title": "Este é o título da notícia 9",
+        "subtitle": "Este é o subtítulo da página",
         "description": "Esta é a descrição da notícia",
         "content": "Aqui vai ficar todo o conteúdo da página 9 descrito",
         "image":{
           "alt":"Imagem vazia",
-          "src": "./src/images/empty.png"
+          "src": "../../src/images/empty.png"
         }
       },
       {
         "id": 10,
         "date": "26/03/2024",
+        "user": 1, 
         "title": "Este é o título da notícia 10",
+        "subtitle": "Este é o subtítulo da página",
         "description": "Esta é a descrição da notícia",
         "content": "Aqui vai ficar todo o conteúdo da página 10 descrito",
         "image":{
           "alt":"Imagem vazia",
-          "src": "./src/images/empty.png"
+          "src": "../../src/images/empty.png"
         }
       },
       {
@@ -944,7 +964,7 @@
         "content": "Aqui vai ficar todo o conteúdo da página 11 descrito",
         "image":{
           "alt":"Imagem vazia",
-          "src": "./src/images/empty.png"
+          "src": "../../src/images/empty.png"
         }
       }
 
@@ -953,7 +973,24 @@
    "usuarios":[
     {
       "id":1,
-      "name": "Pablo Aires dos Santos"
+      "name": "Pablo Aires dos Santos",
+      "type": 1,
+      "function": "Auxiliar de informática"
+
+    }
+   ],
+   "compartilhamento":[
+    {
+      "id":1,
+      "urlSocialMedia": "https://www.facebook.com/sharer/sharer.php?u=",
+      "icon":"facebook",
+      "color": "#3b5998"
+    },
+    {
+      "id":2,
+      "urlSocialMedia": "https://api.whatsapp.com/send?text=",
+      "icon":"whatsapp",
+      "color":"#25d366"
     }
    ]
   }

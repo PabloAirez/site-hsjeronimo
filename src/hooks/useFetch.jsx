@@ -9,13 +9,15 @@ import { useState, useEffect } from 'react'
 *
 * Modo de uso: Importe o arquivo do Hook na sua página e defina uma const {data : nomeDaSuaVariavel} = useFetch(endpoint);
 */
+
+export const urlBase = "http://192.168.8.75:3000";
+
 export const useFetch = (endPoint) => {
     const [data,setData] = useState([]);
     const [config, setConfig] = useState([]); // seta as configurações de cabeçalho
     const [method,setMethod] = useState([]); // GET, POST, UPDATE, DELETE
     const [error,setError] = useState(false);
     const [callFetch, setCallFetch] = useState(false); // Serve para chamar novamente o fetch com GET após executar um método POST
-    const urlBase = "http://192.168.8.75:3000";
 
     const httpConfig = (data,method)=>{
         if(method === "POST"){
